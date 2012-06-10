@@ -2,11 +2,11 @@
 #      Main Configs       #
 # ----------------------- #
 
-url: http://yoursite.com
-title: My Octopress Blog
-subtitle: A blogging framework for hackers.
-author: Your Name
-simple_search: http://google.com/search
+url: http://www.mcorp.com.br
+title: mcorp.
+subtitle: tecnologia e informações inúteis de utilidade pública
+author: Leonardo Saraiva
+simple_search: http://google.com.br/search
 description:
 
 # Default date format is "ordinal" (resulting in "July 22nd 2007")
@@ -64,7 +64,7 @@ github_show_profile_link: true
 github_skip_forks: true
 
 # Twitter
-twitter_user:
+twitter_user: vyper
 twitter_tweet_count: 4
 twitter_show_replies: false
 twitter_follow_button: true
