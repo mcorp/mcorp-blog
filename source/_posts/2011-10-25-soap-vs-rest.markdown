@@ -5,7 +5,6 @@ layout: post
 slug: soap-vs-rest
 status: publish
 title: SOAP vs REST
-wordpress_id: '631'
 categories:
 - arquitetura
 - desenvolvimento
@@ -38,35 +37,13 @@ não tentar encontrar/criar um padrão que resolva todos os problemas.
 
 ### Historinha 1
 
-<History type="ficção" context="enterprise" description="padrão perfeito X"
-observation="Qualquer semelhança com a vida real será pura coincidência">
-<Content> 1 - Temos o "padrão perfeito X", chamado a partir de agora ppX; 2 -
-O ppX é grande, foi criado para resolver todo tipo de problema do mundo
-tecnológico; 3 - Muitas pessoas enterprise (vulgo PE) usam e amam o ppX e são
-felizes com ele; 4 - Toda palestra, evento e rodinha das PE só se ouve falar
-do ppX, bem, é lógico; 5 - Usam ele para todo e qualquer problema; 6 - Eles
-sabem que o ppX tem seus problemas, mas é super confiável; 7 - **Eles resolvem
-seus problemas com o ppX e são felizes com o que fazem.** </Content>
-</History>
+{% gist 2903814 %}
 
 ### Historinha 2
 
-history = { type: 'ficção', context: 'non-enterprise', description: 'padrão
-perfeito X', observation: 'Qualquer semelhança com a vida real será pura
-coincidência', content: ' 1 - Existe o "padrão perfeito X", chamado a partir
-de agora ppX; 2 - O ppX é grande, foi criado para resolver todo tipo de
-problema do mundo tecnológico; 3 - Muitas pessoas enterprise (vulgo PE) usam e
-amam o ppX e são felizes com ele; 4 - Muitas pessoas não-enterprise (vulgo
-PNE) pouco usam e odeiam o ppX; 5 - Toda palestra, evento e rodinha das PNE só
-se ouve falar mal do ppX; 6 - Resolvem inventar o "padrão perfeito aberto X"
-(adivinha? Errou. Vulgo A-ppX); 7 - Usam ele para todo e qualquer problema; 8
-- Eles sabem que o ppX tem seus problemas, então fazem desses problemas a
-causa da fome no mundo; 9 - Mostram a todos que o A-ppX é a perfeita solução
-para todos os problemas do mundo, menos a fome; 10 - **Eles resolvem seus
-problemas com o A-ppX e são felizes com o que fazem.** '}
+{% gist 2903819 %}
 
 ## Se é que alguém chegou até aqui...
-
   
 Cada um no seu quadrado **ou não**.
 
