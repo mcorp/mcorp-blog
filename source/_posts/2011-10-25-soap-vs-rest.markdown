@@ -3,6 +3,7 @@ author: vyper
 date: '2011-10-25 09:52:00'
 layout: post
 slug: soap-vs-rest
+comments: true
 status: publish
 title: SOAP vs REST
 categories:

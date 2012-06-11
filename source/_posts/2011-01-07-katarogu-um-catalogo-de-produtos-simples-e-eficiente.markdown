@@ -3,6 +3,7 @@ author: vyper
 date: '2011-01-07 16:11:32'
 layout: post
 slug: katarogu-um-catalogo-de-produtos-simples-e-eficiente
+comments: true
 status: publish
 title: 'Katarogu: um catálogo de produtos simples e eficiente'
 categories:

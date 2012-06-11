@@ -3,6 +3,7 @@ author: vyper
 date: '2010-04-20 21:47:45'
 layout: post
 slug: instalando-o-wso2-web-services-framework-for-php-2-0-0
+comments: true
 status: publish
 title: Instalando o WSO2 Web Services Framework for PHP (2.0.0)
 categories:

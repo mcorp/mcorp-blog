@@ -3,6 +3,7 @@ author: vyper
 date: '2009-10-09 07:32:49'
 layout: post
 slug: lancamento-do-livro-expressoes-regulares-uma-abordagem-divertida
+comments: true
 status: publish
 title: 'Lançamento do livro: Expressões Regulares - Uma abordagem divertida'
 categories:

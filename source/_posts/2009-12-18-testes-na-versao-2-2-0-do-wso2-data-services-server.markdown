@@ -3,6 +3,7 @@ author: vyper
 date: '2009-12-18 17:46:09'
 layout: post
 slug: testes-na-versao-2-2-0-do-wso2-data-services-server
+comments: true
 status: publish
 title: Testes na versão 2.2.0 do WSO2 Data Services Server
 categories:

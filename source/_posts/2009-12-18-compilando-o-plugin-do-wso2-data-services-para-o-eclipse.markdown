@@ -3,6 +3,7 @@ author: vyper
 date: '2009-12-18 12:21:41'
 layout: post
 slug: compilando-o-plugin-do-wso2-data-services-para-o-eclipse
+comments: true
 status: publish
 title: Compilando o plugin do WSO2 Data Services Server para o Eclipse
 categories:

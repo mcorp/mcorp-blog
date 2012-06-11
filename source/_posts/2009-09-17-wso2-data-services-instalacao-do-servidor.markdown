@@ -3,6 +3,7 @@ author: vyper
 date: '2009-09-17 13:32:41'
 layout: post
 slug: wso2-data-services-instalacao-do-servidor
+comments: true
 status: publish
 title: WSO2 Data Services - Instalação do servidor
 categories:

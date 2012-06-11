@@ -3,6 +3,7 @@ author: vyper
 date: '2009-11-24 12:28:20'
 layout: post
 slug: novidades-nos-lancamentos-nov2009-da-plataforma-wso2
+comments: true
 status: publish
 title: Novidades nos lançamentos (nov/2009) da plataforma WSO2
 categories:

@@ -3,6 +3,7 @@ author: vyper
 date: '2010-06-16 10:17:12'
 layout: post
 slug: compilando-o-wso2-carbon-3-0-0-e-corrigindo-o-wso2-data-services-server-2-5-0
+comments: true
 status: publish
 title: Compilando o WSO2 Carbon 3.0.0 e corrigindo o WSO2 Data  Services Server 2.5.0
 categories:

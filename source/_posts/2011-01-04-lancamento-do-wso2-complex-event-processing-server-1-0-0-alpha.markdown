@@ -3,6 +3,7 @@ author: vyper
 date: '2011-01-04 07:28:06'
 layout: post
 slug: lancamento-do-wso2-complex-event-processing-server-1-0-0-alpha
+comments: true
 status: publish
 title: Lançamento do WSO2 Complex Event Processing Server 1.0.0 (Alpha)
 categories:

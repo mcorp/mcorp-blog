@@ -3,6 +3,7 @@ author: vyper
 date: '2009-11-26 07:00:27'
 layout: post
 slug: soa-esta-para-wso2-ou-wso2-esta-para-o-soa
+comments: true
 status: publish
 title: SOA está para WSO2 ou WSO2 está para o SOA?
 categories:

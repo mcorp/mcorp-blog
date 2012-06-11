@@ -3,6 +3,7 @@ author: vyper
 date: '2009-09-29 07:23:41'
 layout: post
 slug: bpel-editor-vs-jboss-tools
+comments: true
 status: publish
 title: BPEL Editor VS JBoss Tools
 categories:

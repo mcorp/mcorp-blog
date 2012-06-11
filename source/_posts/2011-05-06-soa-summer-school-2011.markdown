@@ -3,6 +3,7 @@ author: vyper
 date: '2011-05-06 09:17:35'
 layout: post
 slug: soa-summer-school-2011
+comments: true
 status: publish
 title: SOA Summer School 2011
 categories:

@@ -3,6 +3,7 @@ author: vyper
 date: '2010-02-25 13:25:05'
 layout: post
 slug: livro-gratis-soa-adoption-for-dummies
+comments: true
 status: publish
 title: 'Livro grátis: SOA Adoption for Dummies'
 categories:

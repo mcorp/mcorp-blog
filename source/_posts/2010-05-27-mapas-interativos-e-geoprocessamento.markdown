@@ -3,6 +3,7 @@ author: vyper
 date: '2010-05-27 16:57:36'
 layout: post
 slug: mapas-interativos-e-geoprocessamento
+comments: true
 status: publish
 title: Mapas interativos e Geoprocessamento
 categories:

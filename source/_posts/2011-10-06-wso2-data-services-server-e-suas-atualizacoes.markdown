@@ -3,6 +3,7 @@ author: vyper
 date: '2011-10-06 15:58:00'
 layout: post
 slug: wso2-data-services-server-e-suas-atualizacoes
+comments: true
 status: publish
 title: WSO2 Data Services Server e suas atualizações
 categories:

@@ -3,6 +3,7 @@ author: vyper
 date: '2011-11-12 19:18:34'
 layout: post
 slug: wso2-soa-workshop-em-sao-paulo
+comments: true
 status: publish
 title: 'WSO2: SOA Workshop em São Paulo'
 categories:

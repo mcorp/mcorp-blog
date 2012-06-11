@@ -3,6 +3,7 @@ author: vyper
 date: '2010-04-09 13:24:27'
 layout: post
 slug: novidades-do-proximo-wso2-data-services-server-2-5-x
+comments: true
 status: publish
 title: Novidades do próximo WSO2 Data Services Server (2.5.x)
 categories:

@@ -3,6 +3,7 @@ author: vyper
 date: '2009-12-22 10:43:15'
 layout: post
 slug: instalando-wso2-enterprise-service-bus-eclipse-tools-no-ubuntu-karmic-koala-9-10
+comments: true
 status: publish
 title: Instalando WSO2 Enterprise Service Bus Eclipse Tools no Ubuntu Karmic Koala (9.10)
 categories:

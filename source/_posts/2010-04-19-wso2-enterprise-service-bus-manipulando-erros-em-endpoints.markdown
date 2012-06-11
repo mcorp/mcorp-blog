@@ -3,6 +3,7 @@ author: vyper
 date: '2010-04-19 11:54:27'
 layout: post
 slug: wso2-enterprise-service-bus-manipulando-erros-em-endpoints
+comments: true
 status: publish
 title: WSO2 Enterprise Service Bus - Manipulando erros em Endpoints
 categories:

@@ -3,6 +3,7 @@ author: vyper
 date: '2010-05-06 18:27:32'
 layout: post
 slug: utilizando-o-array-type-do-wso2-data-services-server-2-5-x
+comments: true
 status: publish
 title: Utilizando o Array Type do WSO2 Data Services Server 2.5.x
 categories:

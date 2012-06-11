@@ -3,6 +3,7 @@ author: vyper
 date: '2009-10-14 12:37:12'
 layout: post
 slug: wso2-enterprise-service-bus-esb-2-1-1-lancada
+comments: true
 status: publish
 title: WSO2 Enterprise Service Bus (ESB) 2.1.1 lançada
 categories:

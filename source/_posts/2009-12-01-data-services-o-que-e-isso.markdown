@@ -3,6 +3,7 @@ author: vyper
 date: '2009-12-01 00:41:16'
 layout: post
 slug: data-services-o-que-e-isso
+comments: true
 status: publish
 title: 'Data Services: O que é isso?'
 categories:

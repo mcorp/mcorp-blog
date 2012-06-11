@@ -3,6 +3,7 @@ author: vyper
 date: '2009-11-26 19:08:32'
 layout: post
 slug: software-livre-codigo-aberto-e-o-mundo-soa
+comments: true
 status: publish
 title: Software livre, código aberto e o mundo SOA
 categories:

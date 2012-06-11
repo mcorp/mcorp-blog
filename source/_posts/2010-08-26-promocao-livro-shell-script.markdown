@@ -3,6 +3,7 @@ author: vyper
 date: '2010-08-26 15:12:11'
 layout: post
 slug: promocao-livro-shell-script
+comments: true
 status: publish
 title: 'Promoção: Livro Shell Script'
 categories:

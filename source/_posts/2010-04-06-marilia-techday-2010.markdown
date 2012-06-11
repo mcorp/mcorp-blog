@@ -3,6 +3,7 @@ author: vyper
 date: '2010-04-06 22:27:32'
 layout: post
 slug: marilia-techday-2010
+comments: true
 status: publish
 title: Marília TechDay 2010
 categories:

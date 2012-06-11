@@ -3,6 +3,7 @@ author: vyper
 date: '2011-06-11 15:39:37'
 layout: post
 slug: novidades-wso2-data-services-server-2-6-x
+comments: true
 status: publish
 title: Novidades WSO2 Data Services Server (2.6.x)
 categories:

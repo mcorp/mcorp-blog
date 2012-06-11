@@ -3,6 +3,7 @@ author: vyper
 date: '2009-11-06 03:51:51'
 layout: post
 slug: 1-sql-server-day
+comments: true
 status: publish
 title: 1º SQL Server Day
 categories:

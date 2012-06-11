@@ -3,6 +3,7 @@ author: zehnogueira
 date: '2011-02-24 19:30:30'
 layout: post
 slug: seguranca-de-informacoes-atraves-de-filtragem-de-dados-no-wso2-data-services
+comments: true
 status: publish
 title: ' Segurança de informações através de filtragem de dados no WSO2 Data Services'
 categories:

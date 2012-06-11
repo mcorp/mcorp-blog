@@ -3,6 +3,7 @@ author: vyper
 date: '2010-03-08 20:03:58'
 layout: post
 slug: consumindo-um-servico-seguro-utilizando-php
+comments: true
 status: publish
 title: Consumindo um serviço seguro utilizando PHP
 categories:

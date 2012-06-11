@@ -3,6 +3,7 @@ author: vyper
 date: '2010-04-06 15:44:57'
 layout: post
 slug: wso2-business-activity-monitoring-sql-server
+comments: true
 status: publish
 title: WSO2 Business Activity Monitoring + SQL Server
 categories:

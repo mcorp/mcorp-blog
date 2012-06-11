@@ -3,6 +3,7 @@ author: vyper
 date: '2009-11-19 05:38:38'
 layout: post
 slug: wso2-e-a-quinta-feira-agitada-muitos-lancamentos
+comments: true
 status: publish
 title: 'WSO2 e a quinta-feira agitada: muitos lançamentos'
 categories:
