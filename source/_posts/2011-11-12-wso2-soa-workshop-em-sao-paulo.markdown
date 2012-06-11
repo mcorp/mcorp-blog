@@ -17,13 +17,15 @@ tags:
 - wso2 carbon
 ---
 
-[![Junior, Chintana, Amani, Nuwan e Leonardo](http://www.mcorp.com.br/wp-content/uploads/2011/11/junior-chintana-amani-nuwan-leonardo-300x225.jpg)](http://www.mcorp.com.br/wp-content/uploads/2011/11/junior-chintana-amani-nuwan-leonardo.jpg)
+[{% img center http://www.mcorp.com.br/wp-content/uploads/2011/11/junior-chintana-amani-nuwan-leonardo-300x225.jpg 300 225 "Junior, Chintana, Amani, Nuwan e Leonardo" "Junior, Chintana, Amani, Nuwan e Leonardo" %}](http://www.mcorp.com.br/wp-content/uploads/2011/11/junior-chintana-amani-nuwan-leonardo.jpg)
 
 No último fim de semana estivemos participando do [Open PaaS Workshop: Understanding the Stratos Cloud Platform](http://wso2.com/events/workshops/2011-november-sao-paulo-open-paas-workshop/) em São Paulo.
 
 O _workshop_ foi uma ótima oportunidade para conhecermos outras pessoas que utilizam a plataforma. E, também, saber que um pessoal do WSO2 veio ao Brasil realizar um _quickstart_ em duas empresas, uma de Uberlândia e outra de São Paulo. Esses dois _cases_, são os primeiros _cases_ privados que ficamos sabendo, publicamente. Estamos atrás de maiores detalhes sobre os projetos para escrevermos sobre eles.
 
-[![](http://www.mcorp.com.br/wp-content/uploads/2011/11/wso2-soa-workshop-galera-150x150.jpg)](http://www.mcorp.com.br/wp-content/uploads/2011/11/wso2-soa-workshop-galera.jpg) [![](http://www.mcorp.com.br/wp-content/uploads/2011/11/wso2-soa-workshop-galera-2-150x150.jpg)](http://www.mcorp.com.br/wp-content/uploads/2011/11/wso2-soa-workshop-galera-2.jpg) [![](http://www.mcorp.com.br/wp-content/uploads/2011/11/wso2-soa-workshop-galera-3-150x150.jpg)](http://www.mcorp.com.br/wp-content/uploads/2011/11/wso2-soa-workshop-galera-3.jpg)
+[{% img http://www.mcorp.com.br/wp-content/uploads/2011/11/wso2-soa-workshop-galera-150x150.jpg %}](http://www.mcorp.com.br/wp-content/uploads/2011/11/wso2-soa-workshop-galera.jpg)
+[{% img http://www.mcorp.com.br/wp-content/uploads/2011/11/wso2-soa-workshop-galera-2-150x150.jpg %}](http://www.mcorp.com.br/wp-content/uploads/2011/11/wso2-soa-workshop-galera-2.jpg)
+[{% img http://www.mcorp.com.br/wp-content/uploads/2011/11/wso2-soa-workshop-galera-3-150x150.jpg %}](http://www.mcorp.com.br/wp-content/uploads/2011/11/wso2-soa-workshop-galera-3.jpg)
 
 Isso mostra que o [WSO2](http://wso2.org) está em crescimento no Brasil. E o que só ajuda a confirmar esse crescimento, é a participação da concorrência no _workshop_ e também outras empresas interessadas em utilizar o WSO2.
 
