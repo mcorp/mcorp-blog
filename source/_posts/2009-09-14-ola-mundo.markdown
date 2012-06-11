@@ -5,7 +5,6 @@ layout: post
 slug: ola-mundo
 status: publish
 title: Olá, mundo!
-wordpress_id: '1'
 categories:
 - avisos
 tags:
@@ -27,6 +26,7 @@ Mas complemento-o com nossos objetivos com esse retorno:
   * Resolver problemas de ordem financeira;
   * Resolver problemas de ordem psicológica;
   * Resolver problemas de ordem sentimental. Que, na verdade, é a mesma coisa que emocional. Mas temos que encher o espaço.
+
 Brincadeiras a parte... nossos objetivos são (não necessariamente na ordem de
 importância):
 
@@ -34,6 +34,6 @@ importância):
   * Trocar ideias sobre as ferramentas que estamos utilizando, para que nós e outras pessoas possam consultar as resolucão ou problema por nós encontrados;
   * Documentar um ferramental que utilizamos e vemos nenhuma pouca documentacão;
   * Expor e discutir ideias sobre tecnologia em geral.
+
 Então, declaro re-re-aberto o **maneh corp. - projetos e sisteminhas inúteis
 de utilidade pública**.
-

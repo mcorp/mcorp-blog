@@ -5,7 +5,6 @@ layout: post
 slug: seguranca-de-informacoes-atraves-de-filtragem-de-dados-no-wso2-data-services
 status: publish
 title: ' Segurança de informações através de filtragem de dados no WSO2 Data Services'
-wordpress_id: '499'
 categories:
 - desenvolvimento
 tags:
@@ -20,12 +19,11 @@ tags:
 - xml signature
 ---
 
-[![](http://www.mcorp.com.br/wp-content/uploads/2011/02/cadeado-
-300x199.jpg)](http://www.mcorp.com.br/wp-content/uploads/2011/02/cadeado.jpg)
+[![](http://www.mcorp.com.br/wp-content/uploads/2011/02/cadeado-300x199.jpg)](http://www.mcorp.com.br/wp-content/uploads/2011/02/cadeado.jpg)
 
 Em alguns casos, podemos nos deparar com a necessidade de confidencializar
-alguns dados no retorno de [Data
-Services](http://www.mcorp.com.br/glossario/#DataServices), exibindo-os apenas
+alguns dados no retorno de [Data Services](http://www.mcorp.com.br/glossario/#DataServices), 
+exibindo-os apenas
 para determinados grupos de usuários, tanto por questão de segurança (quando
 algum grupo específico não pode ter acesso a algumas informações),  quanto por
 não ter a necessidade de utilizar esse retorno, para que assim não precisemos
@@ -33,8 +31,7 @@ criar dois serviços com a mesma finalidade. O WSO2 Data Services Server
 oferece a possibilidade de filtrar esses dados no retorno de uma _query_,
 através do [WS-Security](http://www.mcorp.com.br/glossario/#WS-Security) (tem
 como foco principal o uso de [XML Signature](http://www.mcorp.com.br/glossario
-/#XML-Signature) e [XML Encryption](http://www.mcorp.com.br/glossario/#XML-
-Encryption)). Nesse caso irei exemplificar a seguinte situação: um serviço que
+/#XML-Signature) e [XML Encryption](http://www.mcorp.com.br/glossario/#XML-Encryption)). Nesse caso irei exemplificar a seguinte situação: um serviço que
 retorna dados referente aos funcionários, sendo consumido por dois
 departamentos: o RH (que necessita dos dados referente aos pagamentos dos
 honorários) e o setor de segurança (que utiliza apenas os dados cadastrais
@@ -47,32 +44,25 @@ Iremos utilizar nesse exemplo o WSO2 Data Services Server em sua versão 2.5.1
 
   * [Criando um ambiente SOA com WSO2](http://www.leandroprado.com.br/2010/07/criando-um-ambiente-soa-com-wso2/)
   * [Criando serviços com WSO2 Data Services](http://www.leandroprado.com.br/2010/09/criando-servicos-com-o-wso2-parte-1-wso2-data-services/)
+
 Supondo que possuímos o banco de dados, com uma tabela simples chamada de
 TB_FUNCIONARIOS, com os campos: ID, NOME E SALARIO.
 
 ## Etapa 1 - Criando o usuário
 
-Logado ao WSO2 Data Services Server vá em "Home > Configure > User Management
-> Users", para que possamos criar novos usuários, nesse caso criaremos os
+Logado ao WSO2 Data Services Server vá em "Home > Configure > User Management > Users", 
+para que possamos criar novos usuários, nesse caso criaremos os
 usuários "Maria" que faz parte do departamento de RH da empresa e "Joao" que
 faz parte da segurança do prédio. Click em "Add User" para preenchermos os
 dados do usuário que será cadastrado.
 
-[caption id="attachment_508" align="aligncenter" width="300" caption="add user
-wso2"][![add user wso2](http://www.mcorp.com.br/wp-
-content/uploads/2011/02/figura1.0-add-user-
-wso2-300x205.jpg)](http://www.mcorp.com.br/wp-
-content/uploads/2011/02/figura1.0-add-user-wso2.jpg)[/caption]
+[![add user wso2](http://www.mcorp.com.br/wp-content/uploads/2011/02/figura1.0-add-user-wso2-300x205.jpg)](http://www.mcorp.com.br/wp-content/uploads/2011/02/figura1.0-add-user-wso2.jpg)
 
 Após inserir os dados do usuário, clicar em "finish", repetir o procedimento
 pro cadastro do outro usuário. Podemos listar os usuários criados como mostra
 a imagem.
 
-[caption id="attachment_509" align="aligncenter" width="300" caption="list
-user wso2"][![list user wso2](http://www.mcorp.com.br/wp-
-content/uploads/2011/02/figura1.1-list-user-
-wso2-300x149.jpg)](http://www.mcorp.com.br/wp-
-content/uploads/2011/02/figura1.1-list-user-wso2.jpg)[/caption]
+[![list user wso2](http://www.mcorp.com.br/wp-content/uploads/2011/02/figura1.1-list-user-wso2-300x149.jpg)](http://www.mcorp.com.br/wp-content/uploads/2011/02/figura1.1-list-user-wso2.jpg)
 
 ## Etapa 2 - Criando grupos de usuários
 
@@ -89,21 +79,13 @@ vincular os usuários que farão parte do mesmo, faça uma busca listando todos
 os usuários e selecione o usuário "Maria" criado anteriormente, como na imagem
 abaixo e finalize.
 
-[caption id="attachment_512" align="aligncenter" width="300" caption="select
-user wso2"][![select user wso2](http://www.mcorp.com.br/wp-
-content/uploads/2011/02/figura1.2-select-user-
-wso2-300x170.jpg)](http://www.mcorp.com.br/wp-
-content/uploads/2011/02/figura1.2-select-user-wso2.jpg)[/caption]
+[![select user wso2](http://www.mcorp.com.br/wp-content/uploads/2011/02/figura1.2-select-user-wso2-300x170.jpg)](http://www.mcorp.com.br/wp-content/uploads/2011/02/figura1.2-select-user-wso2.jpg)
 
 Agora usando o mesmo processo vamos criar o grupo "Seguranca". Observe que
 quando selecionamos algum usuário criado e vinculado ao grupo, o mesmo possui
 um ou vários grupos selecionados.
 
-[caption id="attachment_513" align="aligncenter" width="300" caption="roles of
-users wso2"][![roles of users wso2](http://www.mcorp.com.br/wp-
-content/uploads/2011/02/figura1.3-roles-of-users-
-wso2-300x176.jpg)](http://www.mcorp.com.br/wp-
-content/uploads/2011/02/figura1.3-roles-of-users-wso2.jpg)[/caption]
+[![roles of users wso2](http://www.mcorp.com.br/wp-content/uploads/2011/02/figura1.3-roles-of-users-wso2-300x176.jpg)](http://www.mcorp.com.br/wp-content/uploads/2011/02/figura1.3-roles-of-users-wso2.jpg)
 
 ## Etapa 3 - Filtrando dados da consulta
 
@@ -119,11 +101,7 @@ Details > Data Sources > Queries",  para inserirmos nosso novo método.
 Preenchemos com o SQL, o campo de entrada, e na hora em que formos preencher o
 retorno será onde a "mágica" acontecerá.
 
-[caption id="attachment_515" align="aligncenter" width="300" caption="edit
-query wso2"][![edit query wso2](http://www.mcorp.com.br/wp-
-content/uploads/2011/02/figura1.4-edit-query-
-wso2-300x176.jpg)](http://www.mcorp.com.br/wp-
-content/uploads/2011/02/figura1.4-edit-query-wso2.jpg)[/caption]
+[![edit query wso2](http://www.mcorp.com.br/wp-content/uploads/2011/02/figura1.4-edit-query-wso2-300x176.jpg)](http://www.mcorp.com.br/wp-content/uploads/2011/02/figura1.4-edit-query-wso2.jpg)
 
 No item "Add new output Mapping" abriremos a tela para cadastrar um novo campo
 de retorno, preenchemos o tipo do campo, o nome de saída e o nome do campo no
@@ -133,11 +111,7 @@ ambos os grupos, no caso do campo "SALARIO" selecionaremos apenas o grupo
 RecursosHumanos, com o método criado mostraremos como consumir esse método
 filtrando os dados.
 
-[caption id="attachment_516" align="aligncenter" width="300" caption="add edit
-output mapping wso2"][![add edit output mapping wso2](http://www.mcorp.com.br
-/wp-content/uploads/2011/02/figura1.5-add-edit-output-mapping-
-wso2-300x160.jpg)](http://www.mcorp.com.br/wp-
-content/uploads/2011/02/figura1.5-add-edit-output-mapping-wso2.jpg)[/caption]
+[![add edit output mapping wso2](http://www.mcorp.com.br/wp-content/uploads/2011/02/figura1.5-add-edit-output-mapping-wso2-300x160.jpg)](http://www.mcorp.com.br/wp-content/uploads/2011/02/figura1.5-add-edit-output-mapping-wso2.jpg)
 
 ## Etapa 4 - Testando a filtragem de dados
 
@@ -147,11 +121,7 @@ Security for the service", selecionamos a opção "yes" no combo e setamos o
 flag "UsernameToken", assim estaremos habilitando segurança por grupo e
 usuário do cliente.
 
-[caption id="attachment_517" align="aligncenter" width="300" caption="security
-for the service wso2"][![security for the service
-wso2](http://www.mcorp.com.br/wp-content/uploads/2011/02/figura1.6-security-
-for-the-service-wso2-300x130.jpg)](http://www.mcorp.com.br/wp-
-content/uploads/2011/02/figura1.6-security-for-the-service-wso2.jpg)[/caption]
+[![security for the service wso2](http://www.mcorp.com.br/wp-content/uploads/2011/02/figura1.6-security-for-the-service-wso2-300x130.jpg)](http://www.mcorp.com.br/wp-content/uploads/2011/02/figura1.6-security-for-the-service-wso2.jpg)
 
 Simulando a execução do serviço, no próprio WSO2 Data Services Server, podemos
 perceber que aparecem as opções "username" e "password". O retorno será
@@ -159,28 +129,14 @@ filtrado de acordo com o usuário que for preenchido nesses campos. Executando
 a consulta, notaremos que o campo "SALARIO" só aparece no retorno se
 utilizarmos o usuário "Maria".
 
-[caption id="attachment_519" align="aligncenter" width="300" caption="full
-return service wso2"][![full return service wso2](http://www.mcorp.com.br/wp-
-content/uploads/2011/02/figura1.9-full-return-service-
-wso2-300x126.jpg)](http://www.mcorp.com.br/wp-
-content/uploads/2011/02/figura1.9-full-return-service-wso2.jpg)[/caption]
+[![full return service wso2](http://www.mcorp.com.br/wp-content/uploads/2011/02/figura1.9-full-return-service-wso2-300x126.jpg)](http://www.mcorp.com.br/wp-content/uploads/2011/02/figura1.9-full-return-service-wso2.jpg)
 
-[caption id="attachment_520" align="aligncenter" width="300" caption="partial
-return service wso2"][![parcial return service wso2](http://www.mcorp.com.br
-/wp-content/uploads/2011/02/figura1.8-parcial-return-service-
-wso2-300x128.jpg)](http://www.mcorp.com.br/wp-
-content/uploads/2011/02/figura1.8-parcial-return-service-wso2.jpg)[/caption]
+[![parcial return service wso2](http://www.mcorp.com.br/wp-content/uploads/2011/02/figura1.8-parcial-return-service-wso2-300x128.jpg)](http://www.mcorp.com.br/wp-content/uploads/2011/02/figura1.8-parcial-return-service-wso2.jpg)
 
 Espero ter colaborado, sugestões e criticas são sempre bem vindas, focando o
-objetivo de transformar a comunidade [WSO2
-Brasil](http://www.wso2brasil.com.br/) cada vez mais forte, até o próximo
+objetivo de transformar a comunidade [WSO2 Brasil](http://www.wso2brasil.com.br/) cada vez mais forte, até o próximo
 post.
 
-Post baseado no artigo "[content filtering data services user
-roles](http://wso2.org/library/articles/content-filtering-data-services-user-
-roles)" de Anjana Fernando - Software Engineer WSO2.
+Post baseado no artigo "[content filtering data services user roles](http://wso2.org/library/articles/content-filtering-data-services-user-roles)" de Anjana Fernando - Software Engineer WSO2.
 
-Pode ser visto um exemplo de [consumo um servico seguro utilizando
-php](http://www.mcorp.com.br/2010/03/consumindo-um-servico-seguro-utilizando-
-php/).
-
+Pode ser visto um exemplo de [consumo um servico seguro utilizando php](http://www.mcorp.com.br/2010/03/consumindo-um-servico-seguro-utilizando-php/).

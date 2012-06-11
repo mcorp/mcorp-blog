@@ -5,7 +5,6 @@ layout: post
 slug: wso2-e-a-quinta-feira-agitada-muitos-lancamentos
 status: publish
 title: 'WSO2 e a quinta-feira agitada: muitos lançamentos'
-wordpress_id: '64'
 categories:
 - avisos
 tags:
@@ -33,6 +32,7 @@ projetos atualizados são:
   * [WSO2 Governance Registry](http://wso2.org/projects/governance-registry) v3.0.2;
   * [WSO2 Identity Server](http://wso2.org/projects/identity) v2.0.2;
   * [WSO2 Mashup Server](http://wso2.org/projects/mashup) v2.0.1.
+
 Mas ainda sinto falta das atualizações do WSO2 Data Services, que está largado
 na 2.0 e com alguns bugzinhos chatos que até já arrumamos e mandamos o
 _patch_, mas ainda assim...
@@ -40,4 +40,3 @@ _patch_, mas ainda assim...
 E pensar que passei dois dias testando as alterações das últimas versões e
 hoje tem novas. Não consegui nem documentar as antigas... Só me resta testar
 novamente e homologar as novas versões.
-

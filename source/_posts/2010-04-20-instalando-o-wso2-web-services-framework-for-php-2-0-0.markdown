@@ -5,7 +5,6 @@ layout: post
 slug: instalando-o-wso2-web-services-framework-for-php-2-0-0
 status: publish
 title: Instalando o WSO2 Web Services Framework for PHP (2.0.0)
-wordpress_id: '372'
 categories:
 - desenvolvimento
 tags:
@@ -27,15 +26,11 @@ tags:
 - wso2
 ---
 
-![](http://www.mcorp.com.br/wp-content/uploads/2010/04/wsf-php.gif)Como eu
-disse anteriormente, em [Consumindo um serviço seguro utilizando
-PHP](http://www.mcorp.com.br/2010/03/consumindo-um-servico-seguro-utilizando-
-php/), vou mostrar uma das maneiras para instalar o framework que o pessoal do
+![](http://www.mcorp.com.br/wp-content/uploads/2010/04/wsf-php.gif)Como eu disse anteriormente, em [Consumindo um serviço seguro utilizando PHP](http://www.mcorp.com.br/2010/03/consumindo-um-servico-seguro-utilizando-php/), vou mostrar uma das maneiras para instalar o framework que o pessoal do
 WSO2 disponibiliza para criação e consumo de serviços em PHP, conhecido como:
 [WSO2 Web Services Framework _for PHP_](http://wso2.org/downloads/wsf/php).
 
-Na página de [downloads do WSO2 Web Services Framework _for
-PHP_](http://wso2.org/downloads/wsf/php), é possível escolher entre 3 opções
+Na página de [downloads do WSO2 Web Services Framework _for PHP_](http://wso2.org/downloads/wsf/php), é possível escolher entre 3 opções
 de instalação, então exemplificar a fundo apenas uma e colocar uma breve
 descrição das outras.
 
@@ -79,32 +74,29 @@ As dependências para funcionamento do framework, não são muitas:
 Para quem tá acostumado, são os velhos conhecidos, bastando baixar a última
 versão (no meu caso a 2.0.0):
 
-[code language='shell']wget
-http://dist.wso2.org/products/wsf/c/2.0.0/wso2-wsf-c-src-2.0.0.tar.gz tar xfvz
-wso2-wsf-c-src-2.0.0.tar.gz cd wso2-wsf-c-src-2.0.0 ./configure make sudo make
-install[/code]
+    wget http://dist.wso2.org/products/wsf/c/2.0.0/wso2-wsf-c-src-2.0.0.tar.gz
+    tar xfvz wso2-wsf-c-src-2.0.0.tar.gz
+    cd wso2-wsf-c-src-2.0.0
+    ./configure
+    make 
+    sudo make install
 
 ### PHP 5.1.1 ou superior
 
 Não vou entrar nos méritos de instalação do PHP, pois imagino que isso esteja
 mais do que documentado na internet por aí a fora (para os preguiçosos -
-google: [instalação do php no ubuntu](http://www.google.com.br/#hl=pt-BR&sourc
-e=hp&q=instala%C3%A7%C3%A3o+do+php+no+ubuntu&btnG=Pesquisa+Google&meta=&aq=f&a
-qi=&aql=&oq=instala%C3%A7%C3%A3o+do+php+no+ubuntu&gs_rfai=&fp=fbe0f18c81cbb156
-)).
+google: [instalação do php no ubuntu](http://www.google.com.br/#hl=pt-BR&source=hp&q=instala%C3%A7%C3%A3o+do+php+no+ubuntu&btnG=Pesquisa+Google&meta=&aq=f&aqi=&aql=&oq=instala%C3%A7%C3%A3o+do+php+no+ubuntu&gs_rfai=&fp=fbe0f18c81cbb156)).
 
 ### Bibliotecas libxml2 e OpenSSL
 
-O comando para instalar as dependências é: [code language='shell']sudo apt-get
-install libxml2 openssl[/code]
+O comando para instalar as dependências é: 
+
+    sudo apt-get install libxml2 openssl
 
 E com todas as dependências já instaladas e funcionando, podemos utilizar um
 _phpinfo()_; para conferir:
 
-[![](http://www.mcorp.com.br/wp-content/uploads/2010/04/config-php-libxml2
--openssl-300x187.png)](http://www.mcorp.com.br/wp-content/uploads/2010/04
-/config-php-libxml2-openssl.png)
-
+[![](http://www.mcorp.com.br/wp-content/uploads/2010/04/config-php-libxml2-openssl-300x187.png)](http://www.mcorp.com.br/wp-content/uploads/2010/04/config-php-libxml2-openssl.png)
   
 
 ### Compilação do WSF/PHP
@@ -112,9 +104,12 @@ _phpinfo()_; para conferir:
 #### CMM
 
 E agora, a instalação propriamente dita, utilizando novamente os pacotes da
-versão 2.0.0: [code language='shell']wget
-http://dist.wso2.org/products/wsf/php/2.0.0/wso2-wsf-php-src-2.0.0.tar.gz
-./configure make sudo make install[/code]
+versão 2.0.0: 
+
+    wget http://dist.wso2.org/products/wsf/php/2.0.0/wso2-wsf-php-src-2.0.0.tar.gz
+    ./configure
+    make
+    sudo make install
 
 #### 1, 2, 3, testando...
 
@@ -122,17 +117,15 @@ Estamos quase chegando lá...
 
 Vamos copiar dois arquivos do diretório _samples_ (um cliente e um servidor)
 para o diretório do servidor web (no meu caso: _/var/www/samples_) e ver se
-tudo funcionou: [code language='shell']sudo mkdir -p /var/www/samples/ sudo cp
-samples/math_* /var/www/samples/.[/code]
-
-Indo ao navegador, basta abrir o endereço [http://localhost/samples/math_clien
-t.php](http://localhost/samples/math_client.php) e conferir tudo funcionando:
-
-[![](http://www.mcorp.com.br/wp-content/uploads/2010/04/wsf-php-sample-math-
-300x176.png)](http://www.mcorp.com.br/wp-content/uploads/2010/04/wsf-php-
-sample-math.png)
-
+tudo funcionou: 
   
+    sudo mkdir -p /var/www/samples/
+    sudo cp samples/math_* /var/www/samples/.
+
+Indo ao navegador, basta abrir o endereço [http://localhost/samples/math_client.php](http://localhost/samples/math_client.php) e conferir tudo funcionando:
+
+[![](http://www.mcorp.com.br/wp-content/uploads/2010/04/wsf-php-sample-math-300x176.png)](http://www.mcorp.com.br/wp-content/uploads/2010/04/wsf-php-sample-math.png)
+
 
 ### Conclusão
 

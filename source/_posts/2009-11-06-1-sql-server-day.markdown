@@ -5,7 +5,6 @@ layout: post
 slug: 1-sql-server-day
 status: publish
 title: 1º SQL Server Day
-wordpress_id: '52'
 categories:
 - avisos
 tags:
@@ -25,10 +24,10 @@ em frente ao computador... Pois amanhã é dia do SQL Server Day.
 profissionais de SQL Server e espalhar o conhecimento dos mesmos para toda a
 comunidade de maneira gratuita e em português.
 
-Se você é estudante, desenvolvedor, técnico em infraestrutura, DBA, gerente de
+> Se você é estudante, desenvolvedor, técnico em infraestrutura, DBA, gerente de
 TI, ou é de alguma área similar sinta-se convidado para o 1º SQL Server Day!
 
-A primeira edição será online (webcasts) e ocorrerá no dia **07/11/2009**.
+> A primeira edição será online (webcasts) e ocorrerá no dia **07/11/2009**.
 Contará com mais de 12 horas de palestras.
 
 Então, já sabe, não é? Entre no site e se cadastre:

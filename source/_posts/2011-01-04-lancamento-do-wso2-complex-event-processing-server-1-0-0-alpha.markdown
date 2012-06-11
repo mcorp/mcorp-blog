@@ -5,7 +5,6 @@ layout: post
 slug: lancamento-do-wso2-complex-event-processing-server-1-0-0-alpha
 status: publish
 title: Lançamento do WSO2 Complex Event Processing Server 1.0.0 (Alpha)
-wordpress_id: '478'
 categories:
 - desenvolvimento
 tags:
@@ -16,8 +15,7 @@ tags:
 - wso2
 ---
 
-![](http://www.mcorp.com.br/wp-content/uploads/2011/01/wso2-complex-event-
-processing-server-300x28.gif)
+![](http://www.mcorp.com.br/wp-content/uploads/2011/01/wso2-complex-event-processing-server-300x28.gif)
 
 Foi lançado ontem na lista de desenvolvedores do WSO2 (carbon-dev@wso2.org) o
 WSO2 Complex Event Processing Server, em sua versão 1.0.0 (alpha), faz com que
@@ -33,9 +31,7 @@ Alguns dos recursos que podemos encontrar no WSO2 CEP:
   * Use Registry resources - WSO2 CEP supports using resources stored in registry (Queries) to create buckets;
   * Persistence   - WSO2 CEP supports persisting created buckets in the registry;
   * I18n Support for CEP - WSO2 CEP supports internationalization.
-O povo do WSO2 nos convida para [baixar o WSO2
-CEP](http://wso2.org/downloads/cep), instalar, testar e reportar bugs
-(utilizando o [Jira do
-WSO2](https://wso2.org/jira/secure/project/ViewProject.jspa?pid=10190)) - caso
-encontremos!
 
+O povo do WSO2 nos convida para [baixar o WSO2 CEP](http://wso2.org/downloads/cep), instalar, testar e reportar bugs
+(utilizando o [Jira do WSO2](https://wso2.org/jira/secure/project/ViewProject.jspa?pid=10190)) - caso
+encontremos!

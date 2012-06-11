@@ -5,7 +5,6 @@ layout: post
 slug: katarogu-um-catalogo-de-produtos-simples-e-eficiente
 status: publish
 title: 'Katarogu: um catálogo de produtos simples e eficiente'
-wordpress_id: '482'
 categories:
 - avisos
 - desenvolvimento
@@ -22,9 +21,7 @@ apresento a vocês uma ideia que estou desenvolvendo, juntamente com o
 
 ## O que é Katarogu?
 
-[![](http://www.mcorp.com.br/wp-content/uploads/2011/01/katarogu-demo-
-screenshot-300x211.png)](http://www.mcorp.com.br/wp-content/uploads/2011/01
-/katarogu-demo-screenshot.png)
+[![](http://www.mcorp.com.br/wp-content/uploads/2011/01/katarogu-demo-screenshot-300x211.png)](http://www.mcorp.com.br/wp-content/uploads/2011/01/katarogu-demo-screenshot.png)
 
 Um catálogo de produtos simples, limpo e que não necessita de nenhum
 conhecimento profundo de programação para ser instalado e usado.
@@ -55,4 +52,3 @@ sairá a versão 1.0. (:
 Para maiores sobre o projeto, inclusive uma demonstração de funcionamento,
 basta visitar o site:
 [www.mcorp.com.br/katarogu/](http://www.mcorp.com.br/katarogu/).
-

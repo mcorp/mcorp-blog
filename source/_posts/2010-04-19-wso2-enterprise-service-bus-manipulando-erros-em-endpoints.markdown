@@ -5,7 +5,6 @@ layout: post
 slug: wso2-enterprise-service-bus-manipulando-erros-em-endpoints
 status: publish
 title: WSO2 Enterprise Service Bus - Manipulando erros em Endpoints
-wordpress_id: '283'
 categories:
 - desenvolvimento
 tags:
@@ -20,9 +19,7 @@ tags:
 ---
 
 A manipulação de erros em _endpoints_ é uma situação crítica e importante em
-qualquer publicação da [WSO2 Enterprise Service
-Bus](http://wso2.org/projects/esb/java). Neste artigo, [Supun
-Kamburugamuva](http://wso2.com/about/engineers/supun-kamburugamuva/) descreveu
+qualquer publicação da [WSO2 Enterprise Service Bus](http://wso2.org/projects/esb/java). Neste artigo, [SupunKamburugamuva](http://wso2.com/about/engineers/supun-kamburugamuva/) descreveu
 como manipular os erros no nível de _endpoint_.
 
 **Nota de tradução:** O artigo original foi escrito em inglês e pode ser lido em: [WSO2 Enterprise Service Bus - Endpoint Error Handling ](http://wso2.org/library/articles/wso2-enterprise-service-bus-endpoint-error-handling)
@@ -31,22 +28,22 @@ como manipular os erros no nível de _endpoint_.
 
 ### Conteúdo
 
-  * Terminologia
-  * Introdução
-  * Qual a importância da manipulação de erros?
-  * Conceitos
-  * Situações de _endpoint_
-    * _Active_
-    * _Timeout_
-    * _Suspended_
-  * Configurações do _Leaf endpoint_
-    * Exemplo de configuração
-  * _Fail-Over Endpoint_
-    * Exemplo de configuração
-  * Conclusão
-  * Apêndice A
+  * [Terminologia](#ManipulandoErrosEndpoint_Terminologia)
+  * [Introdução](#ManipulandoErrosEndpoint_Introducao)
+  * [Qual a importância da manipulação de erros?](#ManipulandoErrosEndpoint_Importante)
+  * [Conceitos](#ManipulandoErrosEndpoint_Conceitos)
+  * [Situações de _endpoint_](#ManipulandoErrosEndpoint_SituacoesEndpoint)
+    * [_Active_](#ManipulandoErrosEndpoint_SituacoesEndpointActive)
+    * [_Timeout_](#ManipulandoErrosEndpoint_SituacoesEndpointTimeout)
+    * [_Suspended_](#ManipulandoErrosEndpoint_SituacoesEndpointSuspended)
+  * [Configurações do _Leaf endpoint_](#ManipulandoErrosEndpoint_ConfiguracaoEndpoint)
+    * [Exemplo de configuração](#ManipulandoErrosEndpoint_ConfiguracaoEndpointExemplo)
+  * [_Fail-Over Endpoint_](#ManipulandoErrosEndpoint_FailOverEndpoint)
+    * [Exemplo de configuração](#ManipulandoErrosEndpoint_FailOverEndpointExemplo)
+  * [Conclusão](#ManipulandoErrosEndpoint_Conclusao)
+  * [Apêndice A](#ManipulandoErrosEndpoint_ApendiceA)
 
-### Terminologia
+### <a name="ManipulandoErrosEndpoint_Terminologia"></a>Terminologia
 
 _Service Provider endpoint_: WSO2 Enterprise Service Bus atua como uma central
 de distribuição, entregando as mensagens recebidas dos clientes aos _service
@@ -56,7 +53,7 @@ _WSO2 Enterprise Service Bus Endpoint_: Esta é a representação do _service
 provider endpoint_, omitida internamente na configuração do WSO2 Enterprise
 Service Bus.
 
-### Introdução
+### <a name="ManipulandoErrosEndpoint_Introducao"></a>Introdução
 
 Corporações são complexamente estruturadas e compostas por centenas de
 aplicações com semânticas completamente diferentes. Algumas dessas aplicações
@@ -80,6 +77,7 @@ A configuração no WSO2 Enterprise Service Bus é feita em etapas, são elas:
   * _Proxy services_
   * _Endpoints_
   * _Tasks_
+
 Os_ Mediators_ são componentes funcionais dentro do WSO2 Enterprise Service
 Bus, eles fazem várias coisas como gravação de log (_logging_), transformação
 (_XSLT transformation_), envia mensagens externas, filtros baseados em
@@ -111,6 +109,7 @@ sobre o WSO2 Enterprise Service Bus.
   3. Default Endpoint
   4. Load Balancing Endpoint
   5. Fail-Over Endpoint
+
 Dos itens mencionados acima, os mais utilizados são o Address e o WSDL
 Endpoints. Cada Endpoint tem seu próprio XML de configuração, escrito na
 linguagem Synapse. Synapse é uma linguagem XML usada para configurar a
@@ -120,7 +119,7 @@ Até o Endpoint enviar a mensagem de resposta, pode encontrar vários erros de
 transporte. Por exemplo, a conexão pode dar timeout ou pode ser fechada pelo
 serviço atual.
 
-### Qual a importância da manipulação de erros?
+### <a name="ManipulandoErrosEndpoint_Importante"></a>Qual a importância da manipulação de erros?
 
 WSO2 Enterprise Service Bus é uma aplicação de longa duração e nesse tempo
 falhas podem ocorrer. Retiring on transient failures enhances the fault
@@ -147,7 +146,7 @@ ser perdidas. Claro que você pode configurar a WSO2 Enterprise Service Bus
 para manipular estas situações e este artigo dará a você uma maior compreensão
 sobre como trabalhar com Endpoints e otimizar as suas configurações.
 
-### Conceitos
+### <a name="ManipulandoErrosEndpoint_Conceitos"></a>Conceitos
 
 Nós chamamos Address, Default and WSDL Endpoints como Leaf Endpoints, que
 enviam a mensagem. A Load Balance ou Fail-Over Endpoints usa um ou vários Leaf
@@ -169,7 +168,7 @@ Service Bus e o atual Endpoint.
 Um Endpoint tem uma situação, mas antes vamos para as configurações de
 Endpoint para vermos como as transições acontecem.
 
-### Situações do Endpoint
+### <a name="ManipulandoErrosEndpoint_SituacoesEndpoint"></a>Situações do Endpoint
 
 Em alguns momentos a situação do Endpoint pode ser Active, Timeout, Suspended
 ou Off. A situação de transição do Endpoint normalmente acontece na base de
@@ -181,19 +180,14 @@ analisar as diferentes situações do endpoint em detalhes:
   * Timeout: Foram encontrados erros no endpoint, que passa a ser um candidato a ser suspenso, mas pode continuar enviando mensagens. Se os erros persisterem o endpoint será suspenso.
   * Suspended: Foram encontrados erros no endpoint e é enviado para a situação onde não pode enviar requisições. Ele não pode enviar mensagens e mensagens recebidas por ele resultarão em falhas.
   * Off: O endpoint não está ativo.
-[caption id="attachment_360" align="alignnone" width="506" caption="Toda
-situação de transição acontece na mensagem. Por exemplo, se a duração da
-suspensão é expirada, na situação Suspended, o endpoint continuará na situação
-Suspensed até que uma nova mensagem chegue e seja bem
-sucedida."][![](http://www.mcorp.com.br/wp-
-content/uploads/2010/04/state_2.png)](http://www.mcorp.com.br/wp-
-content/uploads/2010/04/state_2.png)[/caption]
+
+[!["Toda situação de transição acontece na mensagem. Por exemplo, se a duração da suspensão é expirada, na situação Suspended, o endpoint continuará na situação Suspensed até que uma nova mensagem chegue e seja bem sucedida."](http://www.mcorp.com.br/wp-content/uploads/2010/04/state_2.png "Toda situação de transição acontece na mensagem. Por exemplo, se a duração da suspensão é expirada, na situação Suspended, o endpoint continuará na situação Suspensed até que uma nova mensagem chegue e seja bem sucedida.")](http://www.mcorp.com.br/wp-content/uploads/2010/04/state_2.png)
 
 Toda situação de transição acontece na mensagem. Por exemplo, se a duração da
 suspensão é expirada, na situação Suspended, o endpoint continuará na situação
 Suspensed até que uma nova mensagem chegue e seja bem sucedida.
 
-#### Active
+#### <a name="ManipulandoErrosEndpoint_SituacoesEndpointActive"></a>Active
 
 Quando o WSO2 Enterprise Service Bus inicializa, os endpoints estão ativos (na
 situação Active) e prontos para enviar mensagens. Se o usuário não desligar os
@@ -210,6 +204,7 @@ Os erros são manipulados de três formas:
   * Endpoint na situação SUSPENDED
   * Endpoint na situação TIMEOUT
   * Ignorado e mantido no ACTIVE
+
 Se um erro específico não possui um _timeout_ configurado, então a conexão
 será fechada e o erro será tratado como TIMEOUT. Todos os outros erros terão o
 Endpoint colocado como SUSPENDED.
@@ -218,7 +213,7 @@ Quando um erro ocorrer no Endpoint, será visto primeiramente se ele é um erro
 para colocar na situação TIMEOUT. Caso contrário, será verificado se é para
 colocar na situação SUSPENDED.
 
-#### Timeout
+#### <a name="ManipulandoErrosEndpoint_SituacoesEndpointTimeout"></a>Timeout
 
 Nesta situação o Endpoint pode ter na mensagem encaminhada um número máximo de
 tentativas. Se as falhas persistirem e o número máximo for excedido, o
@@ -231,7 +226,7 @@ erro, o endpoint é colocado como SUSPENDED. Mas se alguma das mensagens
 anteriores for bem sucedida neste Endpoint, que estava SUSPENDED, ele então
 será colocado como ACTIVE.
 
-#### Suspended
+#### <a name="ManipulandoErrosEndpoint_SituacoesEndpointSuspended"></a>Suspended
 
 Um endpoint suspended não pode ser usado para enviar mensagens. Depois que o
 endpoint é colocado nesta situação, pode ser tentado novamente após o tempo
@@ -243,8 +238,7 @@ ou TIMEOUT dependendo do erro que ocorrer.
 
 O próximo período é calculado usando a seguinte fórmula:
 
-Next suspension time period = Max (Initial Suspension duration * (progression
-factor try count), Maximum Duration)
+    Next suspension time period = Max (Initial Suspension duration * (progression factor try count), Maximum Duration)
 
 Todas as variáveis da fórmula acima são valores configurados usados para
 calcular o número de tentativas (contabilizadas após o endpoint ser marcado
@@ -252,7 +246,7 @@ SUSPENDED). Com a incrementação do número de tentativas (try count), o próxi
 período de suspensão (next suspension time period) também será incrementado. O
 incremento é vinculado a máxima duração (maximum duration).
 
-### Configurações do Leaf Endpoint
+### <a name="ManipulandoErrosEndpoint_ConfiguracaoEndpoint"></a>Configurações do Leaf Endpoint
 
 Esta é a configuração do endereço do endpoint. Uma vez que estamos
 interessados apenas nas configurações de erros, as mesmas também podem ser
@@ -261,130 +255,113 @@ aplicadas aos WSDL Endpoints. As configurações de maninpulação de erros são
   1. timeout
   2. markForSuspension
   3. suspendOnFailure
+
 Vamos ver as configurações individualmente.
 
-[sourcecode language="xml"]  ? ? ?
-
-timeout duration in seconds discard|fault ?
-
-[xxx,yyy] m d
-
-[xxx,yyy] n r l [/sourcecode]
+{% gist 2907143 %}
 
 #### Timeout
 
-Nome
-
-Valores
-
-Default
-
-Descrição
-
-duration
-
-miliseconds
-
-60000
-
-Tempo máximo de conexão. Se o endpoint remoto não responder neste tempo, ele
-será tratado como timeout
-
-action
-
-discard, fault, none
-
-none
-
-Tempo para descartar, invocará uma exceção (fault handler) ou responderá como
-tempo de execução excedido
+<table>
+  <thead>
+    <tr>
+      <th>Nome</th>
+      <th>Valores</th>
+      <th>Default</th>
+      <th>Descrição</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>duration</td>
+      <td>miliseconds</td>
+      <td>60000</td>
+      <td>Tempo máximo de conexão. Se o endpoint remoto não responder neste tempo, ele será tratado como timeout</td>
+    </tr>
+    <tr>
+      <td>action</td>
+      <td>discard, fault, none</td>
+      <td>none</td>
+      <td>Tempo para descartar, invocará uma exceção (fault handler) ou responderá como tempo de execução excedido</td>
+    </tr>
+  </tbody>
+</table>
 
 #### markForSuspension
 
-Nome
-
-Valores
-
-Padrão
-
-Descrição
-
-errorCodes
-
-Códigos de erro separados por vírgula
-
-101504, 101505
-
-Lista de erros que envia o endpoint na situação "TIMEOUT
-retriesBeforeSuspension"
-
-retriesBeforeSuspension
-
-Integer
-
-0
-
-Na situação TIMEOUT o número de tentativas é igual ao número de requisições
-menos um e pode falhar antes do endpoint ser marcado como "SUSPENDED
-retryDelay". Esta configuração é por Endpoint e não por mensagem. Muitas
-mensagens podem ser tentadas ao mesmo tempo e falhar, com isso o número de
-tentativas restantes será reduzido.
-
-retryDelay
+<table>
+  <thead>
+    <tr>
+      <th>Nome</th>
+      <th>Valores</th>
+      <th>Padrão</th>
+      <th>Descrição</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>errorCodes</td>
+      <td>Códigos de erro separados por vírgula</td>
+      <td>101504, 101505</td>
+      <td>Lista de erros que envia o endpoint na situação &#8220;TIMEOUT retriesBeforeSuspension&#8221;</td>
+    </tr>
+    <tr>
+      <td>retriesBeforeSuspension</td>
+      <td>Integer</td>
+      <td>0</td>
+      <td>Na situação TIMEOUT o número de tentativas é igual ao número de requisições menos um e pode falhar antes do endpoint ser marcado como &#8220;SUSPENDED retryDelay&#8221;. Esta configuração é por Endpoint e não por mensagem. Muitas mensagens podem ser tentadas ao mesmo tempo e falhar, com isso o número de tentativas restantes será reduzido.</td>
+    </tr>
+    <tr>
+      <td>retryDelay</td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
 
 #### suspendOnFailure
 
-Nome
+<table>
+  <thead>
+    <tr>
+      <th>Nome</th>
+      <th>Valores</th>
+      <th>Padrão</th>
+      <th>Descrição</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>errorCodes</td>
+      <td>Códigos de erro separados por vírgula</td>
+      <td>Todos os erros, exceto os especificados em markForSuspension</td>
+      <td>Erros que enviam o endpoint para a situação SUSPENDED</td>
+    </tr>
+    <tr>
+      <td>initialDuration</td>
+      <td>miliseconds</td>
+      <td>60 x 60 x 1000</td>
+      <td>Depois que um endpoint fica SUSPENDED, esperará por essa quantidade de tempo antes de tentar enviar a mensagem. Todas as mensagens que forem recebidas durante este período resultarão na ativação de <em>fault sequence</em>.</td>
+    </tr>
+    <tr>
+      <td>progressionFactor</td>
+      <td>Integer</td>
+      <td>1</td>
+      <td>O endpoint tentará enviar as mensagens depois da <em>initialDuration</em>. Utilizando a fórmula: next duration = Max(initialDuration x progressionFactor ^ retry count, maximumDuration)</td>
+    </tr>
+    <tr>
+      <td>maximunDuration</td>
+      <td>miliseconds</td>
+      <td>Long.MAX_VALUE</td>
+      <td>Limite superior da duração de tentativas</td>
+    </tr>
+  </tbody>
+</table>
 
-Valores
+#### <a name="ManipulandoErrosEndpoint_ConfiguracaoEndpointExemplo"></a>Exemplo de configuração
 
-Padrão
-
-Descrição
-
-errorCodes
-
-Códigos de erro separados por vírgula
-
-Todos os erros, exceto os especificados em markForSuspension
-
-Erros que enviam o endpoint para a situação SUSPENDED
-
-initialDuration
-
-miliseconds
-
-60 x 60 x 1000
-
-Depois que um endpoint fica SUSPENDED, esperará por essa quantidade de tempo
-antes de tentar enviar a mensagem. Todas as mensagens que forem recebidas
-durante este período resultarão na ativação de _fault sequence_.
-
-progressionFactor
-
-Integer
-
-1
-
-O endpoint tentará enviar as mensagens depois da _initialDuration_. Utilizando
-a fórmula: next duration = Max(initialDuration x progressionFactor ^ retry
-count, maximumDuration)
-
-maximunDuration
-
-miliseconds
-
-Long.MAX_VALUE
-
-Limite superior da duração de tentativas
-
-#### Exemplo de configuração
-
-[sourcecode language="xml"]  60000
-
-101504, 101505 3 1
-
-101500, 101501, 101506, 101507, 101508 1000 2 64000 [/sourcecode]
+{% gist 2907164 %}
 
 Aqui nós mudamos a situação TIMEOUT do endpoint para os erros 101504 e 101505.
 Depois desse processo, três requisições podem falhar por um ou desses erros
@@ -396,7 +373,7 @@ erro 101503 ocorrer, o endpoint será marcado como ACTIVE.
 
 Para mais informações sobre códigos de erro, ver APÊNDICE A.
 
-### Fail-Over Endpoint
+### <a name="ManipulandoErrosEndpoint_FailOverEndpoint"></a>Fail-Over Endpoint
 
 Com essa configuração, se ocorrer um erro durante o processo de transmissão da
 mensagem, a mesma será perdida. A mensagem que falhou não terá uma nova
@@ -408,7 +385,7 @@ Over endpoint é a solução ideal.
 Abaixo uma configuração para fail-over endpoints. No nível de configuração, um
 fail-over é um agrupamento lógico de um ou mais endpoints.
 
-[sourcecode language="xml"]  +  [/sourcecode]
+{% gist 2907546 %}
 
 Quando uma mensagem chega a situação Fail-Over, será atráves da lista de fail-
 over endpoints que escolherá a primeira situação entre ACTIVE ou TIMEOUT.
@@ -435,15 +412,9 @@ overs são possíveis com apenas um endpoint.
 
 Abaixo um exemplo de fail-over com um endpoint.
 
-#### Exemplo de configuração de Fail-Over Endpoint
+#### <a name="ManipulandoErrosEndpoint_FailOverEndpointExemplo"></a>Exemplo de configuração de Fail-Over Endpoint
 
-[sourcecode language="xml"]  60000
-
-101504, 101505, 101500 3 1
-
-1000 2 64000
-
-[/sourcecode]
+{% gist 2907774 %}
 
 Nesse exemplo (Sample_First) o endpoint é marcado como TIMEOUT quando a
 conexão excede o tempo máximo de duração, a conexão é fechada ou envia erros
@@ -459,66 +430,71 @@ Nesta configuração nós assumimos que os erros são raros e quando acontecem,
 basta tentar novamente. Mas se ocorrem frequentemente e continuamente é
 necessário atenção imediata para que voltem para a situação normal.
 
-### Conclusão
+### <a name="ManipulandoErrosEndpoint_Conclusao"></a>Conclusão
 
 A manipulação de erros é crucial para a publicação de endpoints. Os erros
 devem ser descobertos nos testes, é recomendado executar muitos testes de
 carga e melhorar a performance das configurações do endpoint preparando-o para
 os variados erros que podem ocorrer.
 
-### Apêndice A
+### <a name="ManipulandoErrosEndpoint_ApendiceA"></a>Apêndice A
 
-Códigos de erro
+<table>
+  <thead>
+    <tr>
+      <th>Código</th>
+      <th>Descrição</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>101000</td>
+      <td>Receiver IO error sending</td>
+    </tr>
+    <tr>
+      <td>101001</td>
+      <td>Receiver IO error receiving</td>
+    </tr>
+    <tr>
+      <td>101500</td>
+      <td>Sender IO error sending</td>
+    </tr>
+    <tr>
+      <td>101501</td>
+      <td>Sender IO error receiving</td>
+    </tr>
+    <tr>
+      <td>101503</td>
+      <td>Connection failed</td>
+    </tr>
+    <tr>
+      <td>101504</td>
+      <td>Connection timed out</td>
+    </tr>
+    <tr>
+      <td>101505</td>
+      <td>Connection closed</td>
+    </tr>
+    <tr>
+      <td>101506</td>
+      <td>HTTP protocol violation</td>
+    </tr>
+    <tr>
+      <td>101507</td>
+      <td>Connect cancel</td>
+    </tr>
+    <tr>
+      <td>101508</td>
+      <td>Connect timeout</td>
+    </tr>
+    <tr>
+      <td>101509</td>
+      <td>Send abort</td>
+    </tr>
+  </tbody>
+</table>
 
-Código
-
-Descrição
-
-101000
-
-Receiver IO error sending
-
-101001
-
-Receiver IO error receiving
-
-101500
-
-Sender IO error sending
-
-101501
-
-Sender IO error receiving
-
-101503
-
-Connection failed
-
-101504
-
-Connection timed out
-
-101505
-
-Connection closed
-
-101506
-
-HTTP protocol violation
-
-101507
-
-Connect cancel
-
-101508
-
-Connect timeout
-
-101509
-
-Send abort
 
 ### Autor
 
 Supun Kamburugamuva, Software Engineer, WSO2, supun@wso2.com
-

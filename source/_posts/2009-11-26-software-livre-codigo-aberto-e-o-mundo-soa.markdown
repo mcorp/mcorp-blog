@@ -5,7 +5,6 @@ layout: post
 slug: software-livre-codigo-aberto-e-o-mundo-soa
 status: publish
 title: Software livre, código aberto e o mundo SOA
-wordpress_id: '157'
 categories:
 - arquitetura
 - desenvolvimento
@@ -43,6 +42,7 @@ Alguns dos problemas que enfrentamos na maioria das soluções foram:
   * **Desenvolvimento**: o lançamento de novas versões e correções de bugs eram lentos (sem contar as frases do tipo "na versão Enterprise está resolvido");
   * **Comunidade**: praticamente o mesmo problema da documentação, nula; e
   * **Código aberto**: algumas ferramentas dizem "código aberto", porém abrem uma parte do código (que normalmente doam para a Apache Foundation) e o crucial não, impossibilitando corrigirmos ou descobrimos o que acontece.
+
 A lista acima não diz tudo pelo que passamos e enfrentamos, é apenas um
 resumo. Então, após testar algumas ferramentas e utilizar algumas outras,
 optamos pelo [WSO2](http://www.wso2.org/), que apesar de não resolver todos
@@ -55,6 +55,7 @@ escolhê-lo:
   * **Desenvolvimento**: os lançamentos de versões está numa velocidade boa e rápida, apenas os bugs ainda peca um pouco, mas olhando o JIRA é possível achar vários _patches_, nos deixando ainda a opção de alterar o código, caso queira;
   * **Comunidade**: é fraca como todos os outros, existe o [fórum](http://wso2.org/forum), mas é somente em inglês; e
   * **Código aberto**: como dito antes, o [código](https://wso2.org/svn/browse/wso2/trunk/) é aberto e você pode alterar a vontade, que pode ajudar na necessidade de resolução de bugs mais críticos.
+
 Pode não ser a solução perfeita, mas foi o que mais nos deixou tranquilos para
 trabalhar. Alguns produtos ainda tem muito o que evoluir e alguns estão bem
 evoluídos, mas com muito a melhorar. Posso dizer que estamos bem com a opção

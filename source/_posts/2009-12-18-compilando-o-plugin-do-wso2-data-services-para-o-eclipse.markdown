@@ -5,7 +5,6 @@ layout: post
 slug: compilando-o-plugin-do-wso2-data-services-para-o-eclipse
 status: publish
 title: Compilando o plugin do WSO2 Data Services Server para o Eclipse
-wordpress_id: '223'
 categories:
 - desenvolvimento
 tags:
@@ -22,11 +21,9 @@ tags:
 - wso2
 ---
 
-![Eclipse + WSO2 Data Service](http://www.mcorp.com.br/wp-
-content/uploads/2009/12/eclipse-wso2-ds.png)Como não encontrei uma versão
+![Eclipse + WSO2 Data Service](http://www.mcorp.com.br/wp-content/uploads/2009/12/eclipse-wso2-ds.png) Como não encontrei uma versão
 final do plugin para o [Eclipse](http://www.eclipse.org) para criação, edição
-e deploy de serviços do [WSO2 Data Services Server](http://wso2.org/projects
-/data-services-server/java) na página de downloads do site, o jeito foi
+e deploy de serviços do [WSO2 Data Services Server](http://wso2.org/projects/data-services-server/java) na página de downloads do site, o jeito foi
 compilar o plugin a partir do fonte disponível no
 [repositório](http://wso2.org/svn) (e viva o código aberto). E seguem abaixo
 os passos necessário para o procedimento.
@@ -44,16 +41,17 @@ resolvido:
 ## Baixando fontes
 
 Primeiro passo é baixar do [repositório](http://wso2.org/svn) o código fonte
-da última versão: [code language='bash']svn co
-https://wso2.org/repos/wso2/trunk/tools/ide/eclipse/data-
-service/org.wso2.ws.dataservices.ide/[/code]
+da última versão: 
+
+    svn co https://wso2.org/repos/wso2/trunk/tools/ide/eclipse/data-service/org.wso2.ws.dataservices.ide/
 
 ## Compilação
 
 Depois de baixados os fontes, basta entrar na pasta que foi gerada e mandar
 compilar:
 
-[code language='bash']cd org.wso2.ws.dataservices.ide mvn install[/code]
+    cd org.wso2.ws.dataservices.ide 
+    mvn install
 
 Esse processo pode demorar um pouco, pois ele realiza o download de diversas
 dependências para compilação, mas no fim ele gera dentro do diretório "target"
@@ -63,16 +61,15 @@ no seu Eclipse.
 ## Instalação
 
 No meu caso, o Eclipse está instalado no meu _home_ e é para lá que copiei o
-arquivo. [code language='bash']cp
-target/org.wso2.ws.dataservices.ide_1.0.0.jar
-~/Applications/eclipse/plugins/.[/code]
+arquivo. 
+
+    cp target/org.wso2.ws.dataservices.ide_1.0.0.jar ~/Applications/eclipse/plugins/.
 
 ## Finalização
 
-[![WSO2 Data services: Wizard new](http://www.mcorp.com.br/wp-
-content/uploads/2009/12/wso2-data-services-wizard-new-
-300x234.png)](http://www.mcorp.com.br/wp-content/uploads/2009/12/wso2-data-
-services-wizard-new.png)E com isso, no menu de "Novo", do seu Eclipse, deve
+[![WSO2 Data services: Wizard new](http://www.mcorp.com.br/wp-content/uploads/2009/12/wso2-data-services-wizard-new-300x234.png)](http://www.mcorp.com.br/wp-content/uploads/2009/12/wso2-data-services-wizard-new.png)
+
+E com isso, no menu de "Novo", do seu Eclipse, deve
 ter a opção de _wizard_ para criação e após criado o serviço (que ficará para
 um outro post) você tem a opção de clicar com o botão direito no arquivo e
 editar (_Edit Data Service_) ou realizar o [deploy](/glossario/#Deploy)

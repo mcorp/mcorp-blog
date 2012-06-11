@@ -5,7 +5,6 @@ layout: post
 slug: livro-gratis-soa-adoption-for-dummies
 status: publish
 title: 'Livro grátis: SOA Adoption for Dummies'
-wordpress_id: '250'
 categories:
 - arquitetura
 tags:
@@ -19,13 +18,8 @@ oportunidade é a leitura do livro **SOA Adoption for Dummies**, ainda não tive
 tempo de ler todo ele pra "garantir" a qualidade, mas logo postarei minha
 impressão sobre ele.
 
-[caption id="attachment_251" align="aligncenter" width="194" caption="Free
-Book: SOA Adoption for Dummies (somente em
-inglês)"][![](http://www.mcorp.com.br/wp-content/uploads/2010/02
-/Free_Book_SOA_Adoption_for_Dummies-194x300.png)](http://www.mcorp.com.br/wp-
-content/uploads/2010/02/Free_Book_SOA_Adoption_for_Dummies.png)[/caption]
+[!["Free Book: SOA Adoption for Dummies (somente em inglês)"](http://www.mcorp.com.br/wp-content/uploads/2010/02/Free_Book_SOA_Adoption_for_Dummies-194x300.png "Free Book: SOA Adoption for Dummies (somente em inglês)")](http://www.mcorp.com.br/wp-content/uploads/2010/02/Free_Book_SOA_Adoption_for_Dummies.png)
 
-Você pode realizar o download dele por este link: [SOA Adoption for Dummies](h
-ttp://www.softwareag.com/Corporate/res/books/soa_adoption_for_dummies/default.
-asp ).
+Você pode realizar o download dele por este link: [SOA Adoption for Dummies](http://www.softwareag.com/Corporate/res/books/soa_adoption_for_dummies/default.
+asp).
 
