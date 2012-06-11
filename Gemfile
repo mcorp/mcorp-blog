@@ -16,3 +16,6 @@ group :development do
 end
 
 gem 'sinatra', '~> 1.3.2'
+
+# added by Leonardo Saraiva
+gem 'jekyll-tagging'
