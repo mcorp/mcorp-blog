@@ -1,10 +1,10 @@
 ---
 layout: page
-title: "contact"
+title: "Contato"
 date: 2012-06-15 23:56
-comments: true
+comments: false 
 sharing: true
 footer: true
 ---
 
-{% google_form 0AjwaGgyzJp0IdDBVdERBQUViTGhiUTR0ZTJFc0Vpbnc Thank you for your contact. I'll get back to your shortly. %}'
+{% google_form dC1sMW9sSjVmakxITjFBUzN5ME50bXc6MQ Thank you for your contact. I'll get back to your shortly. %}
