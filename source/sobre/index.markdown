@@ -1,11 +1,10 @@
---
-author: vyper
-date: '2009-09-14 16:50:20'
+---
 layout: page
-slug: sobre
-status: publish
-title: Sobre
-wordpress_id: '2'
+title: "Sobre"
+date: 2012-06-16 00:11
+comments: true
+sharing: true
+footer: true
 ---
 
 Um lugarzinho para o pessoal da **maneh corp.** expressar sua opinião sobre
