@@ -42,6 +42,9 @@ Mas apesar de tudo, aparentemente, valeu a pena. Futuramente preciso verificar m
 * personalizar o tema, afinal, quase todo mundo que instala o octopress mantém o tema padrão;
 * descobrir a melhor maneira de fazer iframes, tables e outras tags htm.
 
+**Update:**
+* Procurando como fazer um formulário de contato com Octopress, encontrei esse [post](http://va.mu/WCGa), fica a dica;
+
 E por enquanto é isso pessoal!
 
 **Obs.**: esse é meu primeiro post 100% Octopress!
