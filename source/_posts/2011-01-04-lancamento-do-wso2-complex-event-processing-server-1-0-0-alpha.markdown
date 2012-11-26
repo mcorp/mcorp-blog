@@ -16,7 +16,7 @@ tags:
 - wso2
 ---
 
-![](http://www.mcorp.com.br/wp-content/uploads/2011/01/wso2-complex-event-processing-server-300x28.gif)
+![](http://assets.mcorp.com.br/wp-content/uploads/2011/01/wso2-complex-event-processing-server-300x28.gif)
 
 Foi lançado ontem na lista de desenvolvedores do WSO2 (carbon-dev@wso2.org) o
 WSO2 Complex Event Processing Server, em sua versão 1.0.0 (alpha), faz com que

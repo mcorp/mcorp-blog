@@ -21,7 +21,7 @@ tags:
 - wso2 carbon
 ---
 
-![](http://www.mcorp.com.br/wp-content/uploads/2010/06/wso2-data-services-server.gif)Versões novas de produtos sempre são uma alegria, seja pelos
+![](http://assets.mcorp.com.br/wp-content/uploads/2010/06/wso2-data-services-server.gif)Versões novas de produtos sempre são uma alegria, seja pelos
 recursos novos ou somente pela novidade que sempre alegra-nos, principalmente
 nós desenvolvedores. Mas juntamente com as novas versões (principalmente nos
 primeiros releases) vem também problemas, bugs ou incompatibilidade de
@@ -39,7 +39,7 @@ discutido no [fórum - de não aceitar valores _null_](http://wso2.org/forum/thr
 novidades dessa versão, tivemos que correr atrás e corrigir o problema, já
 corrigido anteriormente.
 
-![](http://www.mcorp.com.br/wp-content/uploads/2010/06/wso2-carbon.gif)Como já
+![](http://assets.mcorp.com.br/wp-content/uploads/2010/06/wso2-carbon.gif)Como já
 conhecemos a estrutura, fomos direto ao site do projeto para realizar o
 [download do fonte do WSO2 Data Services Server](http://wso2.org/downloads/data-services-server) e fomos atrás do arquivo problemático (SQLQuery.java).
 Mas para nossa surpresa, o arquivo não estava mais lá, foi centralizado no

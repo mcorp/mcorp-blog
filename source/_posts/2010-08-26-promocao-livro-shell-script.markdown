@@ -23,7 +23,7 @@ tags:
 - sorteio
 ---
 
-![](http://www.mcorp.com.br/wp-content/uploads/2010/08/livroshell.png)Inspirado nas promoções de [3000conchinhas vendidas](http://blog.aurelio.net/2010/08/19/3000-conchinhas-vendidas/) e [1000 piazinhos vendidos](http://blog.aurelio.net/2010/08/23/1000-piazinhos-verdes-vendidos/) que o [Aurélio](http://twitter.com/oreio) fez no twitter, resolvi parar de ser enrolado e egoísta!
+![](http://assets.mcorp.com.br/wp-content/uploads/2010/08/livroshell.png)Inspirado nas promoções de [3000conchinhas vendidas](http://blog.aurelio.net/2010/08/19/3000-conchinhas-vendidas/) e [1000 piazinhos vendidos](http://blog.aurelio.net/2010/08/23/1000-piazinhos-verdes-vendidos/) que o [Aurélio](http://twitter.com/oreio) fez no twitter, resolvi parar de ser enrolado e egoísta!
 
 Afinal, o prazer de ler os livros escritos pelo [Aurélio](http://aurelio.net)
 tem que ser passado a frente. Por isso vou sortear o livro de [Shell Script](http://www.shellscript.com.br/) 
@@ -32,7 +32,7 @@ pois tenho uma cópia comprada legalmente no site da [Editora Novatec](http://ww
 [resenha sobre o livro Shell Script](http://www.maneh.org/2008/07/shell-script-profissional/))
 e não tenho muito o que fazer com dois livros iguais!
 
-[![](http://www.mcorp.com.br/wp-content/uploads/2010/08/2000-shell-premiacao-300x233.jpg)](http://www.mcorp.com.br/wp-content/uploads/2010/08/2000-shell-premiacao.jpg)
+[![](http://assets.mcorp.com.br/wp-content/uploads/2010/08/2000-shell-premiacao-300x233.jpg)](http://assets.mcorp.com.br/wp-content/uploads/2010/08/2000-shell-premiacao.jpg)
 
 Até tentei pensar em maneiras diferentes de sortear o livro, mas não consegui
 achar nenhuma revolucionária e/ou que não fosse trabalhosa demais. Então parti
@@ -58,7 +58,7 @@ Mandarei o livro para qualquer canto do **Brasil**, via Correios!
 
 ## Informações inúteis de utilidade pública...
 
-[![](http://www.mcorp.com.br/wp-content/uploads/2010/08/todos-os-livros-do-aurelio-150x150.jpg)](http://www.mcorp.com.br/wp-content/uploads/2010/08/todos-os-livros-do-aurelio.jpg) [![](http://www.mcorp.com.br/wp-content/uploads/2010/08/carteirinhas-150x150.png)](http://www.mcorp.com.br/wp-content/uploads/2010/08/carteirinhas.png)
+[![](http://assets.mcorp.com.br/wp-content/uploads/2010/08/todos-os-livros-do-aurelio-150x150.jpg)](http://assets.mcorp.com.br/wp-content/uploads/2010/08/todos-os-livros-do-aurelio.jpg) [![](http://assets.mcorp.com.br/wp-content/uploads/2010/08/carteirinhas-150x150.png)](http://assets.mcorp.com.br/wp-content/uploads/2010/08/carteirinhas.png)
 
 Um dia hei de entender porque sempre participo das promoções do Aurélio, sendo
 que tenho todos os livros! E, lembre-se, caso você tenha algum dos livros (ou
@@ -80,7 +80,7 @@ com o comando abaixo, realizei o sorteio:
 
 E o resultado foi:
 
-[![](http://www.mcorp.com.br/wp-content/uploads/2010/08/sorteio-txt-300x199.png)](http://www.mcorp.com.br/wp-content/uploads/2010/08/sorteio-txt.png)
+[![](http://assets.mcorp.com.br/wp-content/uploads/2010/08/sorteio-txt-300x199.png)](http://assets.mcorp.com.br/wp-content/uploads/2010/08/sorteio-txt.png)
 
 Peço desculpa a todos, mas foi por força maior e parabéns ao ganhador:
 @[taiar](http://twitter.com/taiar). Por favor, entre em contato comigo para
@@ -88,7 +88,7 @@ que me envie seus dados!
 
 ## Atualização (22/09/2010): Finalmente chegou!
 
-[![](http://www.mcorp.com.br/wp-content/uploads/2010/08/taiar_shell-300x225.jpg)](http://www.mcorp.com.br/wp-content/uploads/2010/08/taiar_shell.jpg)
+[![](http://assets.mcorp.com.br/wp-content/uploads/2010/08/taiar_shell-300x225.jpg)](http://assets.mcorp.com.br/wp-content/uploads/2010/08/taiar_shell.jpg)
 
 Demorou um pouco para chegar, mas chegou! Leia um pouco mais sobre a
 "[aventura](http://www.taiar.com.br/blog/2010/09/21/ganhei-o-livro-shell-script-profissional/)" de [André Taiar](http://www.taiar.com.br/) e o livro de

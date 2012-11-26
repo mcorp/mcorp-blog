@@ -32,7 +32,7 @@ apenas pra mostrar o endereço da empresa), essa facilidade que o
 [Google](http://www.google.com.br) trouxe com o [Google Maps](http://www.google.com.br/maps) é muito grande, ajudou muito na
 disseminação dessa tecnologia.
 
-[![](http://www.mcorp.com.br/wp-content/uploads/2010/05/pico-parana-300x201.jpg "Foto por: Everson Novka")](http://www.mcorp.com.br/wp-content/uploads/2010/05/pico-parana.jpg)
+[![](http://assets.mcorp.com.br/wp-content/uploads/2010/05/pico-parana-300x201.jpg "Foto por: Everson Novka")](http://assets.mcorp.com.br/wp-content/uploads/2010/05/pico-parana.jpg)
 
 Essa facilidade de implementação, nos dá maiores opções para criar sistemas e
 interfaces bem diferenciadas, como o [Zoomii Books](http://zoomii.com) (mesmo
@@ -45,7 +45,7 @@ Abaixo vemos o Google Maps e integrado ao
 [Panoramio](http://www.panoramio.com/), dando até a opção de navegação
 panorâmica das fotos georeferenciadas.
 
-[![](http://www.mcorp.com.br/wp-content/uploads/2010/05/pico-parana-google-maps-150x150.png)](http://www.google.com.br/maps?ll=-25.255525,-48.845794&spn=0.027751,0.054846&t=h&z=15&iwloc=lyrftr:com.panoramio.all,3787114327184159595,-25.255525,-48.845773&lci=com.panoramio.all) [![](http://www.mcorp.com.br/wp-content/uploads/2010/05/pico-parana-vista-panoramica-150x150.png)](http://www.google.com.br/maps?ll=-25.255525,-48.85397&spn=0,0.054846&t=h&z=15&lci=com.panoramio.all&layer=c&cbll=-25.255525,-48.845794&cbp=12,0,,0,5&photoid=po-18636660)
+[![](http://assets.mcorp.com.br/wp-content/uploads/2010/05/pico-parana-google-maps-150x150.png)](http://www.google.com.br/maps?ll=-25.255525,-48.845794&spn=0.027751,0.054846&t=h&z=15&iwloc=lyrftr:com.panoramio.all,3787114327184159595,-25.255525,-48.845773&lci=com.panoramio.all) [![](http://assets.mcorp.com.br/wp-content/uploads/2010/05/pico-parana-vista-panoramica-150x150.png)](http://www.google.com.br/maps?ll=-25.255525,-48.85397&spn=0,0.054846&t=h&z=15&lci=com.panoramio.all&layer=c&cbll=-25.255525,-48.845794&cbp=12,0,,0,5&photoid=po-18636660)
 
 Mas acontece que o pessoal do Google abstraiu muito a dificuldade que é
 trabalhar com informações georeferenciadas. Fez com que todas essas

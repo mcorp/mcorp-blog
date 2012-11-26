@@ -27,6 +27,6 @@ um pequeno _case_ utilizando as ferramentas citadas anteriormente.
 Estiveram presentes membros de diversas equipes da empresa: infra-estrutura, desenvolvedores, responsáveis por novas tecnologias
 e algumas outras áreas mais específicas. Elas serão usadas como "cobaias" para a implementação dos primeiros _cases_ da empresa.
 
-[{% img center http://www.mcorp.com.br/wp-content/uploads/2012/11/treinamento-celepar-400x300.jpg 400 300 %}](http://www.mcorp.com.br/wp-content/uploads/2012/11/treinamento-celepar.jpg)
+[{% img center http://assets.mcorp.com.br/wp-content/uploads/2012/11/treinamento-celepar-400x300.jpg 400 300 %}](http://assets.mcorp.com.br/wp-content/uploads/2012/11/treinamento-celepar.jpg)
 
 Um muito obrigado a todos os envolvidos.

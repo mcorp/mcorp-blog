@@ -21,7 +21,7 @@ tags:
 - wcf
 ---
 
-![](http://www.mcorp.com.br/wp-content/uploads/2010/04/darth-vader-face.jpg)Esse fim de semana vou fazer algo totalmente diferente do costume!
+![](http://assets.mcorp.com.br/wp-content/uploads/2010/04/darth-vader-face.jpg)Esse fim de semana vou fazer algo totalmente diferente do costume!
 Vou até Marília assistir as palestras do [Marília TechDay](http://www.mariliatechday.com.br/) 2010.
 
 Tá bom, é o lado "negro" da força, logo eu, que trabalho e gosto do código-
@@ -39,5 +39,5 @@ não custa dar uma espiadinha, não é?
 
 Segue a grade de palestras (as inscrições estão encerradas):
 
-[![](http://www.mcorp.com.br/wp-content/uploads/2010/04/marilia-techday.png)](http://www.mcorp.com.br/wp-content/uploads/2010/04/marilia-techday.png)
+[![](http://assets.mcorp.com.br/wp-content/uploads/2010/04/marilia-techday.png)](http://assets.mcorp.com.br/wp-content/uploads/2010/04/marilia-techday.png)
 

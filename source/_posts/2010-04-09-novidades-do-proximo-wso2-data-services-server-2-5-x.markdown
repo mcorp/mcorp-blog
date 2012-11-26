@@ -51,8 +51,8 @@ que utilizam o novo Carbon.
 
 ## <a name=""></a>Carbon Data Sources
 
-[![](http://www.mcorp.com.br/wp-content/uploads/2010/04/wso2ds-2.5.0-r2-CarbonDataSources-01-150x150.png)](http://www.mcorp.com.br/wp-content/uploads/2010/04/wso2ds-2.5.0-r2-CarbonDataSources-01.png)
-[![](http://www.mcorp.com.br/wp-content/uploads/2010/04/wso2ds-2.5.0-r2-CarbonDataSources-02-150x150.png)](http://www.mcorp.com.br/wp-content/uploads/2010/04/wso2ds-2.5.0-r2-CarbonDataSources-02.png)
+[![](http://assets.mcorp.com.br/wp-content/uploads/2010/04/wso2ds-2.5.0-r2-CarbonDataSources-01-150x150.png)](http://assets.mcorp.com.br/wp-content/uploads/2010/04/wso2ds-2.5.0-r2-CarbonDataSources-01.png)
+[![](http://assets.mcorp.com.br/wp-content/uploads/2010/04/wso2ds-2.5.0-r2-CarbonDataSources-02-150x150.png)](http://assets.mcorp.com.br/wp-content/uploads/2010/04/wso2ds-2.5.0-r2-CarbonDataSources-02.png)
 
 Agora ficará muito mais fácil gerenciar conexões às várias base de dados. Com
 _Carbon Data Sources_, será possível apontar no [Data Service](/glossario/#DataServices) qual _data source_ utilizar, e cada
@@ -61,8 +61,8 @@ configurações, bastará manter o mesmo nome.
 
 ## <a name=""></a>Array Type
 
-[![](http://www.mcorp.com.br/wp-content/uploads/2010/04/wso2ds-2.5.0-r2-ArrayType-01-150x150.png)](http://www.mcorp.com.br/wp-content/uploads/2010/04/wso2ds-2.5.0-r2-ArrayType-01.png)
-[![](http://www.mcorp.com.br/wp-content/uploads/2010/04/wso2ds-2.5.0-r2-ArrayType-02-150x150.png)](http://www.mcorp.com.br/wp-content/uploads/2010/04/wso2ds-2.5.0-r2-ArrayType-02.png)
+[![](http://assets.mcorp.com.br/wp-content/uploads/2010/04/wso2ds-2.5.0-r2-ArrayType-01-150x150.png)](http://assets.mcorp.com.br/wp-content/uploads/2010/04/wso2ds-2.5.0-r2-ArrayType-01.png)
+[![](http://assets.mcorp.com.br/wp-content/uploads/2010/04/wso2ds-2.5.0-r2-ArrayType-02-150x150.png)](http://assets.mcorp.com.br/wp-content/uploads/2010/04/wso2ds-2.5.0-r2-ArrayType-02.png)
 
 Poderemos ter entradas do tipo _array_ ou _scalar_, onde essas entradas podem
 conter valores de diferentes tipos, como: _string_, _integer_, _real_,
@@ -71,15 +71,15 @@ _timestamp_, _bit_, _oracle ref cursor_ ou _binary_.
 
 ## <a name=""></a>Default values in input mappings
 
-[![](http://www.mcorp.com.br/wp-content/uploads/2010/04/wso2ds-2.5.0-r2-DefaultValuesInputMappings-150x150.png)](http://www.mcorp.com.br/wp-content/uploads/2010/04/wso2ds-2.5.0-r2-DefaultValuesInputMappings.png)
+[![](http://assets.mcorp.com.br/wp-content/uploads/2010/04/wso2ds-2.5.0-r2-DefaultValuesInputMappings-150x150.png)](http://assets.mcorp.com.br/wp-content/uploads/2010/04/wso2ds-2.5.0-r2-DefaultValuesInputMappings.png)
 
 No caso do tipo de entrada _scalar_, poderá ser indicado um valor padrão para
 a entrada.
 
 ## <a name=""></a>Data Validation Logic
 
-[![](http://www.mcorp.com.br/wp-content/uploads/2010/04/wso2ds-2.5.0-r2-DataValidationLogic-01-150x150.png)](http://www.mcorp.com.br/wp-content/uploads/2010/04/wso2ds-2.5.0-r2-DataValidationLogic-01.png)
-[![](http://www.mcorp.com.br/wp-content/uploads/2010/04/wso2ds-2.5.0-r2-DataValidationLogic-02-150x150.png)](http://www.mcorp.com.br/wp-content/uploads/2010/04/wso2ds-2.5.0-r2-DataValidationLogic-02.png)
+[![](http://assets.mcorp.com.br/wp-content/uploads/2010/04/wso2ds-2.5.0-r2-DataValidationLogic-01-150x150.png)](http://assets.mcorp.com.br/wp-content/uploads/2010/04/wso2ds-2.5.0-r2-DataValidationLogic-01.png)
+[![](http://assets.mcorp.com.br/wp-content/uploads/2010/04/wso2ds-2.5.0-r2-DataValidationLogic-02-150x150.png)](http://assets.mcorp.com.br/wp-content/uploads/2010/04/wso2ds-2.5.0-r2-DataValidationLogic-02.png)
 
 Os dados de entrada poderão ser validados utlizando alguns validadores
 padrões:
@@ -92,8 +92,8 @@ padrões:
 
 ## <a name=""></a>WIP Services
 
-[![](http://www.mcorp.com.br/wp-content/uploads/2010/04/wip_dbs-150x150.png)](http://www.mcorp.com.br/wp-content/uploads/2010/04/wip_dbs.png)
-[![](http://www.mcorp.com.br/wp-content/uploads/2010/04/wip_service_list-150x150.png)](http://www.mcorp.com.br/wp-content/uploads/2010/04/wip_service_list.png)
+[![](http://assets.mcorp.com.br/wp-content/uploads/2010/04/wip_dbs-150x150.png)](http://assets.mcorp.com.br/wp-content/uploads/2010/04/wip_dbs.png)
+[![](http://assets.mcorp.com.br/wp-content/uploads/2010/04/wip_service_list-150x150.png)](http://assets.mcorp.com.br/wp-content/uploads/2010/04/wip_service_list.png)
 
 Os serviços que ainda não estão finalizados, estão passando por correção ou
 qualquer outro motivo, poderão ser marcados como: "Work in progress". Isso
@@ -101,8 +101,8 @@ evitará erros e os clientes não conseguirão consumir o serviço.
 
 ## <a name=""></a>Contract first
 
-[![](http://www.mcorp.com.br/wp-content/uploads/2010/04/wsdl_upload-150x150.png)](http://www.mcorp.com.br/wp-content/uploads/2010/04/wsdl_upload.png)
-[![](http://www.mcorp.com.br/wp-content/uploads/2010/04/dummy_data_source-150x150.png)](http://www.mcorp.com.br/wp-content/uploads/2010/04/dummy_data_source.png)
+[![](http://assets.mcorp.com.br/wp-content/uploads/2010/04/wsdl_upload-150x150.png)](http://assets.mcorp.com.br/wp-content/uploads/2010/04/wsdl_upload.png)
+[![](http://assets.mcorp.com.br/wp-content/uploads/2010/04/dummy_data_source-150x150.png)](http://assets.mcorp.com.br/wp-content/uploads/2010/04/dummy_data_source.png)
 
 Com essa funcionalidade, criar _data services_ poderá fica ainda mais simples.
 Basta adicionar um contrato (WSDL) com todas as definições e ele criará um
@@ -111,8 +111,8 @@ preencher as _queries_.
 
 ## <a name=""></a>Batch mode
 
-[![](http://www.mcorp.com.br/wp-content/uploads/2010/04/wso2ds-2.5.0-r2-BatchMode-01-150x150.png)](http://www.mcorp.com.br/wp-content/uploads/2010/04/wso2ds-2.5.0-r2-BatchMode-01.png)
-[![](http://www.mcorp.com.br/wp-content/uploads/2010/04/wso2ds-2.5.0-r2-BatchMode-02-150x150.png)](http://www.mcorp.com.br/wp-content/uploads/2010/04/wso2ds-2.5.0-r2-BatchMode-02.png)
+[![](http://assets.mcorp.com.br/wp-content/uploads/2010/04/wso2ds-2.5.0-r2-BatchMode-01-150x150.png)](http://assets.mcorp.com.br/wp-content/uploads/2010/04/wso2ds-2.5.0-r2-BatchMode-01.png)
+[![](http://assets.mcorp.com.br/wp-content/uploads/2010/04/wso2ds-2.5.0-r2-BatchMode-02-150x150.png)](http://assets.mcorp.com.br/wp-content/uploads/2010/04/wso2ds-2.5.0-r2-BatchMode-02.png)
 
 Um recurso bastante interessante implementado é o _Batch Mode_, esse recurso
 implementa automaticamente, em todos os métodos que realizam alguma função de
@@ -122,8 +122,8 @@ uma única vez, como - por exemplo - um inserir uma listagem de pessoas.
 
 ## <a name=""></a>Boxcarring
 
-[![](http://www.mcorp.com.br/wp-content/uploads/2010/04/wso2ds-2.5.0-r2-Boxcarring-01-150x150.png)](http://www.mcorp.com.br/wp-content/uploads/2010/04/wso2ds-2.5.0-r2-Boxcarring-01.png)
-[![](http://www.mcorp.com.br/wp-content/uploads/2010/04/wso2ds-2.5.0-r2-Boxcarring-02-150x150.png)](http://www.mcorp.com.br/wp-content/uploads/2010/04/wso2ds-2.5.0-r2-Boxcarring-02.png)
+[![](http://assets.mcorp.com.br/wp-content/uploads/2010/04/wso2ds-2.5.0-r2-Boxcarring-01-150x150.png)](http://assets.mcorp.com.br/wp-content/uploads/2010/04/wso2ds-2.5.0-r2-Boxcarring-01.png)
+[![](http://assets.mcorp.com.br/wp-content/uploads/2010/04/wso2ds-2.5.0-r2-Boxcarring-02-150x150.png)](http://assets.mcorp.com.br/wp-content/uploads/2010/04/wso2ds-2.5.0-r2-Boxcarring-02.png)
 
 Implementação importante para essa nova versão, _boxcarring_ nada mais é que o
 suporte a transações nos serviços, pelas informações coletadas, essa transação
@@ -140,8 +140,8 @@ dados.
 Será possível utilizar dados binários (tipo Base64) tanto para enviar, quanto
 para receber.
 
-[![](http://www.mcorp.com.br/wp-content/uploads/2010/04/binary-input-mapping-150x150.png)](http://www.mcorp.com.br/wp-content/uploads/2010/04/binary-input-mapping.png)
-[![](http://www.mcorp.com.br/wp-content/uploads/2010/04/binary-output-mapping-150x150.png)](http://www.mcorp.com.br/wp-content/uploads/2010/04/binary-output-mapping.png)
+[![](http://assets.mcorp.com.br/wp-content/uploads/2010/04/binary-input-mapping-150x150.png)](http://assets.mcorp.com.br/wp-content/uploads/2010/04/binary-input-mapping.png)
+[![](http://assets.mcorp.com.br/wp-content/uploads/2010/04/binary-output-mapping-150x150.png)](http://assets.mcorp.com.br/wp-content/uploads/2010/04/binary-output-mapping.png)
 
 
 ## <a name=""></a>JMX
@@ -151,8 +151,8 @@ utilizando Java Management Extensions (JMX).
 
 ## <a name=""></a>Query Properties
 
-[![](http://www.mcorp.com.br/wp-content/uploads/2010/04/wso2ds-2.5.0-r2-QueryProperties-01-150x150.png)](http://www.mcorp.com.br/wp-content/uploads/2010/04/wso2ds-2.5.0-r2-QueryProperties-01.png)
-[![](http://www.mcorp.com.br/wp-content/uploads/2010/04/wso2ds-2.5.0-r2-QueryProperties-02-150x150.png)](http://www.mcorp.com.br/wp-content/uploads/2010/04/wso2ds-2.5.0-r2-QueryProperties-02.png)
+[![](http://assets.mcorp.com.br/wp-content/uploads/2010/04/wso2ds-2.5.0-r2-QueryProperties-01-150x150.png)](http://assets.mcorp.com.br/wp-content/uploads/2010/04/wso2ds-2.5.0-r2-QueryProperties-01.png)
+[![](http://assets.mcorp.com.br/wp-content/uploads/2010/04/wso2ds-2.5.0-r2-QueryProperties-02-150x150.png)](http://assets.mcorp.com.br/wp-content/uploads/2010/04/wso2ds-2.5.0-r2-QueryProperties-02.png)
 
 As _queries_ podem ter algumas propriedades específicas na execução, ajudando
 na questão de performance e limitações.

@@ -16,7 +16,7 @@ tags:
 - wso2
 ---
 
-!["Já viu algum datacenter assim?"](http://www.mcorp.com.br/wp-content/uploads/2009/11/server.jpg "Já viu algum datacenter assim?")
+!["Já viu algum datacenter assim?"](http://assets.mcorp.com.br/wp-content/uploads/2009/11/server.jpg "Já viu algum datacenter assim?")
 
 Se fisicamente algumas empresas mantém um _datacenter_ como esse acima,
 imagine o que não conseguem fazer com relação a "fontes de dados" e, para
@@ -46,7 +46,7 @@ Que - basicamente - funciona como uma camada acima de toda aquela bagunça, com
 uma única maneira de acesso (serviços) às várias fontes de dados e sem maiores
 dependências, independente da forma dos dados o acesso será o mesmo.
 
-[![WSO2 Data Services - Lista de serviços](http://www.mcorp.com.br/wp-content/uploads/2009/11/wso2-data-services-list-300x155.png)](http://www.mcorp.com.br/wp-content/uploads/2009/11/wso2-data-services-list.png)
+[![WSO2 Data Services - Lista de serviços](http://assets.mcorp.com.br/wp-content/uploads/2009/11/wso2-data-services-list-300x155.png)](http://assets.mcorp.com.br/wp-content/uploads/2009/11/wso2-data-services-list.png)
 
 A tela acima mostra a visão do WSO2 Data Services Server na sua página de
 listagem de serviços, com atalhos para o [WSDL](/glossario/#WSDL) (na versões

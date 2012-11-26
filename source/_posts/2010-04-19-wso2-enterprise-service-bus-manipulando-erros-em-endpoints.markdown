@@ -182,7 +182,7 @@ analisar as diferentes situações do endpoint em detalhes:
   * Suspended: Foram encontrados erros no endpoint e é enviado para a situação onde não pode enviar requisições. Ele não pode enviar mensagens e mensagens recebidas por ele resultarão em falhas.
   * Off: O endpoint não está ativo.
 
-[!["Toda situação de transição acontece na mensagem. Por exemplo, se a duração da suspensão é expirada, na situação Suspended, o endpoint continuará na situação Suspensed até que uma nova mensagem chegue e seja bem sucedida."](http://www.mcorp.com.br/wp-content/uploads/2010/04/state_2.png "Toda situação de transição acontece na mensagem. Por exemplo, se a duração da suspensão é expirada, na situação Suspended, o endpoint continuará na situação Suspensed até que uma nova mensagem chegue e seja bem sucedida.")](http://www.mcorp.com.br/wp-content/uploads/2010/04/state_2.png)
+[!["Toda situação de transição acontece na mensagem. Por exemplo, se a duração da suspensão é expirada, na situação Suspended, o endpoint continuará na situação Suspensed até que uma nova mensagem chegue e seja bem sucedida."](http://assets.mcorp.com.br/wp-content/uploads/2010/04/state_2.png "Toda situação de transição acontece na mensagem. Por exemplo, se a duração da suspensão é expirada, na situação Suspended, o endpoint continuará na situação Suspensed até que uma nova mensagem chegue e seja bem sucedida.")](http://assets.mcorp.com.br/wp-content/uploads/2010/04/state_2.png)
 
 Toda situação de transição acontece na mensagem. Por exemplo, se a duração da
 suspensão é expirada, na situação Suspended, o endpoint continuará na situação

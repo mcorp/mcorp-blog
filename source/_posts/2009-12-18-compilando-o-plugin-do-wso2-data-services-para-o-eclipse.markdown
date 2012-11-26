@@ -22,7 +22,7 @@ tags:
 - wso2
 ---
 
-![Eclipse + WSO2 Data Service](http://www.mcorp.com.br/wp-content/uploads/2009/12/eclipse-wso2-ds.png) Como não encontrei uma versão
+![Eclipse + WSO2 Data Service](http://assets.mcorp.com.br/wp-content/uploads/2009/12/eclipse-wso2-ds.png) Como não encontrei uma versão
 final do plugin para o [Eclipse](http://www.eclipse.org) para criação, edição
 e deploy de serviços do [WSO2 Data Services Server](http://wso2.org/projects/data-services-server/java) na página de downloads do site, o jeito foi
 compilar o plugin a partir do fonte disponível no
@@ -68,7 +68,7 @@ arquivo.
 
 ## Finalização
 
-[![WSO2 Data services: Wizard new](http://www.mcorp.com.br/wp-content/uploads/2009/12/wso2-data-services-wizard-new-300x234.png)](http://www.mcorp.com.br/wp-content/uploads/2009/12/wso2-data-services-wizard-new.png)
+[![WSO2 Data services: Wizard new](http://assets.mcorp.com.br/wp-content/uploads/2009/12/wso2-data-services-wizard-new-300x234.png)](http://assets.mcorp.com.br/wp-content/uploads/2009/12/wso2-data-services-wizard-new.png)
 
 E com isso, no menu de "Novo", do seu Eclipse, deve
 ter a opção de _wizard_ para criação e após criado o serviço (que ficará para

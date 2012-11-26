@@ -27,7 +27,7 @@ tags:
 - wso2
 ---
 
-[![](http://www.mcorp.com.br/wp-content/uploads/2010/04/wso2-bam.gif)](http://www.mcorp.com.br/wp-content/uploads/2010/04/wso2-bam.gif)A pedidos do "chefe", realizei o download
+[![](http://assets.mcorp.com.br/wp-content/uploads/2010/04/wso2-bam.gif)](http://assets.mcorp.com.br/wp-content/uploads/2010/04/wso2-bam.gif)A pedidos do "chefe", realizei o download
 e a instalação do [WSO2 Business Activity Monitoring](http://wso2.org/downloads/bam) (versão 1.0.1) e parti para os
 testes.
 

@@ -27,7 +27,7 @@ tags:
 - wso2
 ---
 
-![](http://www.mcorp.com.br/wp-content/uploads/2010/04/wsf-php.gif)Como eu disse anteriormente, em [Consumindo um serviço seguro utilizando PHP](http://www.mcorp.com.br/2010/03/consumindo-um-servico-seguro-utilizando-php/), vou mostrar uma das maneiras para instalar o framework que o pessoal do
+![](http://assets.mcorp.com.br/wp-content/uploads/2010/04/wsf-php.gif)Como eu disse anteriormente, em [Consumindo um serviço seguro utilizando PHP](http://www.mcorp.com.br/2010/03/consumindo-um-servico-seguro-utilizando-php/), vou mostrar uma das maneiras para instalar o framework que o pessoal do
 WSO2 disponibiliza para criação e consumo de serviços em PHP, conhecido como:
 [WSO2 Web Services Framework _for PHP_](http://wso2.org/downloads/wsf/php).
 
@@ -97,7 +97,7 @@ O comando para instalar as dependências é:
 E com todas as dependências já instaladas e funcionando, podemos utilizar um
 _phpinfo()_; para conferir:
 
-[![](http://www.mcorp.com.br/wp-content/uploads/2010/04/config-php-libxml2-openssl-300x187.png)](http://www.mcorp.com.br/wp-content/uploads/2010/04/config-php-libxml2-openssl.png)
+[![](http://assets.mcorp.com.br/wp-content/uploads/2010/04/config-php-libxml2-openssl-300x187.png)](http://assets.mcorp.com.br/wp-content/uploads/2010/04/config-php-libxml2-openssl.png)
   
 
 ### Compilação do WSF/PHP
@@ -125,7 +125,7 @@ tudo funcionou:
 
 Indo ao navegador, basta abrir o endereço [http://localhost/samples/math_client.php](http://localhost/samples/math_client.php) e conferir tudo funcionando:
 
-[![](http://www.mcorp.com.br/wp-content/uploads/2010/04/wsf-php-sample-math-300x176.png)](http://www.mcorp.com.br/wp-content/uploads/2010/04/wsf-php-sample-math.png)
+[![](http://assets.mcorp.com.br/wp-content/uploads/2010/04/wsf-php-sample-math-300x176.png)](http://assets.mcorp.com.br/wp-content/uploads/2010/04/wsf-php-sample-math.png)
 
 
 ### Conclusão

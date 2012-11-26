@@ -33,7 +33,7 @@ recebi o erro abaixo:
 
     Unhandled event loop exception XPCOM error -2147467259
 
-[![](http://www.mcorp.com.br/wp-content/uploads/2009/12/wso2-plugin-esb-eclipse-error-300x184.png)](http://www.mcorp.com.br/wp-content/uploads/2009/12/wso2-plugin-esb-eclipse-error.png)
+[![](http://assets.mcorp.com.br/wp-content/uploads/2009/12/wso2-plugin-esb-eclipse-error-300x184.png)](http://assets.mcorp.com.br/wp-content/uploads/2009/12/wso2-plugin-esb-eclipse-error.png)
 
 Com isso, passei um certo tempo procurando na internet, até descobrir que o
 erro é causado por falta da biblioteca **libstdc++5**, que no Ubuntu Karmic
@@ -62,4 +62,4 @@ E instalei:
 
 E com esses passos, tudo funciona normalmente...
 
-[![](http://www.mcorp.com.br/wp-content/uploads/2009/12/wso2-plugin-esb-eclipse-running-300x222.png)](http://www.mcorp.com.br/wp-content/uploads/2009/12/wso2-plugin-esb-eclipse-running.png)
+[![](http://assets.mcorp.com.br/wp-content/uploads/2009/12/wso2-plugin-esb-eclipse-running-300x222.png)](http://assets.mcorp.com.br/wp-content/uploads/2009/12/wso2-plugin-esb-eclipse-running.png)

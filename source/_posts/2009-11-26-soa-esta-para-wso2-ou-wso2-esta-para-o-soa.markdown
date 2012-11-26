@@ -35,12 +35,12 @@ SOA necessitamos escolher uma arquitetura e nesse ponto a participação do WSO2
 diferente do WSO2, que dá a opção de você montar todo esse "quebra-cabeça" da
 forma que bem entender.
 
-[![Arquitetura SOA (pequeno quebra-cabeça)](http://www.mcorp.com.br/wp-content/uploads/2009/11/arquitetura-soa-300x225.png)](http://www.mcorp.com.br/wp-content/uploads/2009/11/arquitetura-soa.png "Arquitetura SOA (pequeno quebra-cabeça)")
+[![Arquitetura SOA (pequeno quebra-cabeça)](http://assets.mcorp.com.br/wp-content/uploads/2009/11/arquitetura-soa-300x225.png)](http://assets.mcorp.com.br/wp-content/uploads/2009/11/arquitetura-soa.png "Arquitetura SOA (pequeno quebra-cabeça)")
 
 E agora, nessa arquitetura de exemplo mostro onde encaixam alguns dos produtos
 do WSO2:
 
-[!["Arquitetura SOA com WSO2"](http://www.mcorp.com.br/wp-content/uploads/2009/11/arquitetura-soa-with-wso2-300x225.png)](http://www.mcorp.com.br/wp-content/uploads/2009/11/arquitetura-soa-with-wso2.png "Arquitetura SOA com WSO2")
+[!["Arquitetura SOA com WSO2"](http://assets.mcorp.com.br/wp-content/uploads/2009/11/arquitetura-soa-with-wso2-300x225.png)](http://assets.mcorp.com.br/wp-content/uploads/2009/11/arquitetura-soa-with-wso2.png "Arquitetura SOA com WSO2")
 
 É claro que no decorrer do desenvolvimento do projeto, algumas coisas podem ir
 se acertando. Até porque essa arquitetura que utilizei como exemplo não é a

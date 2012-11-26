@@ -22,7 +22,7 @@ apresento a vocês uma ideia que estou desenvolvendo, juntamente com o
 
 ## O que é Katarogu?
 
-[![](http://www.mcorp.com.br/wp-content/uploads/2011/01/katarogu-demo-screenshot-300x211.png)](http://www.mcorp.com.br/wp-content/uploads/2011/01/katarogu-demo-screenshot.png)
+[![](http://assets.mcorp.com.br/wp-content/uploads/2011/01/katarogu-demo-screenshot-300x211.png)](http://assets.mcorp.com.br/wp-content/uploads/2011/01/katarogu-demo-screenshot.png)
 
 Um catálogo de produtos simples, limpo e que não necessita de nenhum
 conhecimento profundo de programação para ser instalado e usado.

@@ -25,7 +25,7 @@ estava o meu dia, mas... ledo engano.
 
 Fui no básico: "Add > Data Service > Upload" e...
 
-[![wso2-data-services-faulty-01](http://www.mcorp.com.br/wp-content/uploads/2009/12/wso2-data-services-faulty-01-300x199.png)](http://www.mcorp.com.br/wp-content/uploads/2009/12/wso2-data-services-faulty-01.png)
+[![wso2-data-services-faulty-01](http://assets.mcorp.com.br/wp-content/uploads/2009/12/wso2-data-services-faulty-01-300x199.png)](http://assets.mcorp.com.br/wp-content/uploads/2009/12/wso2-data-services-faulty-01.png)
 
 Um erro que não me
 diz muito, então o jeito foi ver o que poderia ser por "tentativa" e erro.
@@ -48,7 +48,7 @@ Com o serviço devidamente publicado, fui a execução dos métodos para ver se
 tudo iria bem. Primeiro método (sem parâmetros de entrada) foi tranquilo,
 retornou tudo que eu precisava. Já no segundo método...
 
-[![wso2-data-services-faulty-02](http://www.mcorp.com.br/wp-content/uploads/2009/12/wso2-data-services-faulty-02-300x199.png)](http://www.mcorp.com.br/wp-content/uploads/2009/12/wso2-data-services-faulty-02.png)
+[![wso2-data-services-faulty-02](http://assets.mcorp.com.br/wp-content/uploads/2009/12/wso2-data-services-faulty-02-300x199.png)](http://assets.mcorp.com.br/wp-content/uploads/2009/12/wso2-data-services-faulty-02.png)
 
 E voltamos a busca do
 erro perdido... E dessa vez não foi falta de atenção nossa, apenas o plugin

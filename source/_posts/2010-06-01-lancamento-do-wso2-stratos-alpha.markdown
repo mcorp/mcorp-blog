@@ -21,7 +21,7 @@ tags:
 - wso2
 ---
 
-![](http://www.mcorp.com.br/wp-content/uploads/2010/06/wso2-stratos.png)O
+![](http://assets.mcorp.com.br/wp-content/uploads/2010/06/wso2-stratos.png)O
 pessoal do [WSO2](http://wso2.org) anda com todo o vapor mesmo, hoje foi
 lançado (versão _alpha_ ainda) o [WSO2 Stratos](http://wso2.com/cloud/stratos/), toda a plataforma rodando em _cloud
 computing_, ou seja, tudo "empacotado" e pronto para rodar, sem dependência de
@@ -31,7 +31,7 @@ Você pode conseguir maiores informações no site do produto [WSO2 Stratos](htt
 funcionando (lembrando que não é uma versão final ainda) fazendo seu cadastro
 - grátis. [Testar o WSO2 Stratos](http://cloud.wso2.com/).
 
-[![](http://www.mcorp.com.br/wp-content/uploads/2010/06/wso2-stratos-home-300x228.png)](http://www.mcorp.com.br/wp-content/uploads/2010/06/wso2-stratos-home.png)
+[![](http://assets.mcorp.com.br/wp-content/uploads/2010/06/wso2-stratos-home-300x228.png)](http://assets.mcorp.com.br/wp-content/uploads/2010/06/wso2-stratos-home.png)
 
 Os produtos lançados nesse formato são:
 

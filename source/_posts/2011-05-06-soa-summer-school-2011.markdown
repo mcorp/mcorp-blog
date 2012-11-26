@@ -13,7 +13,7 @@ tags:
 - wso2
 ---
 
-![](http://www.mcorp.com.br/wp-content/uploads/2011/05/summerschool-2011.gif)
+![](http://assets.mcorp.com.br/wp-content/uploads/2011/05/summerschool-2011.gif)
 
 Movimentando, novamente, nossas férias de inverno (verão para os
 estadunidenses) tem o SOA Summer School, versão 2011. Várias palestras

@@ -43,8 +43,8 @@ nosso cliente tem todos os códigos dos produtos e quer o restante dos dados.
 Antigamente passaríamos para ele um método _productById_ que recebe um _id_,
 algo como abaixo:
 
-[![](http://www.mcorp.com.br/wp-content/uploads/2010/05/try-it-method-productById-without-array-type-150x150.png)](http://www.mcorp.com.br/wp-content/uploads/2010/05/try-it-method-productById-without-array-type.png)
-[![](http://www.mcorp.com.br/wp-content/uploads/2010/05/soap-ui-method-productById-without-array-type-150x150.png)](http://www.mcorp.com.br/wp-content/uploads/2010/05/soap-ui-method-productById-without-array-type.png)
+[![](http://assets.mcorp.com.br/wp-content/uploads/2010/05/try-it-method-productById-without-array-type-150x150.png)](http://assets.mcorp.com.br/wp-content/uploads/2010/05/try-it-method-productById-without-array-type.png)
+[![](http://assets.mcorp.com.br/wp-content/uploads/2010/05/soap-ui-method-productById-without-array-type-150x150.png)](http://assets.mcorp.com.br/wp-content/uploads/2010/05/soap-ui-method-productById-without-array-type.png)
 
 Mas agora tudo foi facilitado, vamos a "mágica"! Para alteração do método que
 aceite a entrada de um _Array Type_, serão necessários apenas dois passos.
@@ -56,7 +56,7 @@ entrada "id = :id" e colocaremos uma que aceita "N" parâmetros "id in (:id)".
 Então na tela de edição da _query_ do WSO2 Data Services Server, basta
 trocarmos, como fiz abaixo:
 
-[![](http://www.mcorp.com.br/wp-content/uploads/2010/05/query-without-array-150x150.png)](http://www.mcorp.com.br/wp-content/uploads/2010/05/query-without-array.png) [![](http://www.mcorp.com.br/wp-content/uploads/2010/05/query-with-array-150x150.png)](http://www.mcorp.com.br/wp-content/uploads/2010/05/query-with-array.png)
+[![](http://assets.mcorp.com.br/wp-content/uploads/2010/05/query-without-array-150x150.png)](http://assets.mcorp.com.br/wp-content/uploads/2010/05/query-without-array.png) [![](http://assets.mcorp.com.br/wp-content/uploads/2010/05/query-with-array-150x150.png)](http://assets.mcorp.com.br/wp-content/uploads/2010/05/query-with-array.png)
 
 
 ### Passo 2: editando o tipo da entrada
@@ -64,7 +64,7 @@ trocarmos, como fiz abaixo:
 E o segundo passo, editando os _Input Mappings,_ basta trocarmos o tipo
 _scalar_ para _array_, novamente, como fiz abaixo:
 
-[![](http://www.mcorp.com.br/wp-content/uploads/2010/05/input-scalar-150x150.png)](http://www.mcorp.com.br/wp-content/uploads/2010/05/input-scalar.png) [![](http://www.mcorp.com.br/wp-content/uploads/2010/05/input-array-150x150.png)](http://www.mcorp.com.br/wp-content/uploads/2010/05/input-array.png)
+[![](http://assets.mcorp.com.br/wp-content/uploads/2010/05/input-scalar-150x150.png)](http://assets.mcorp.com.br/wp-content/uploads/2010/05/input-scalar.png) [![](http://assets.mcorp.com.br/wp-content/uploads/2010/05/input-array-150x150.png)](http://assets.mcorp.com.br/wp-content/uploads/2010/05/input-array.png)
 
   
 
@@ -72,8 +72,8 @@ _scalar_ para _array_, novamente, como fiz abaixo:
 
 E agora vamos a parte legal: o resultado!
 
-[![](http://www.mcorp.com.br/wp-content/uploads/2010/05/try-it-method-productById-with-array-type-150x150.png)](http://www.mcorp.com.br/wp-content/uploads/2010/05/try-it-method-productById-with-array-type.png)
-[![](http://www.mcorp.com.br/wp-content/uploads/2010/05/soap-ui-method-productById-with-array-type-150x150.png)](http://www.mcorp.com.br/wp-content/uploads/2010/05/soap-ui-method-productById-with-array-type.png)
+[![](http://assets.mcorp.com.br/wp-content/uploads/2010/05/try-it-method-productById-with-array-type-150x150.png)](http://assets.mcorp.com.br/wp-content/uploads/2010/05/try-it-method-productById-with-array-type.png)
+[![](http://assets.mcorp.com.br/wp-content/uploads/2010/05/soap-ui-method-productById-with-array-type-150x150.png)](http://assets.mcorp.com.br/wp-content/uploads/2010/05/soap-ui-method-productById-with-array-type.png)
 
   
 
@@ -83,7 +83,7 @@ Essa implementação facilitou muito e melhorou a qualidade de nossos serviços.
 Ainda não foi lançada a versão final, apenas algumas _releases candidates_,
 que podem ser acompanhadas pelo [repositório de _builders_ do WSO2 Carbon 3.0.0](http://builder.wso2.org/~carbon/releases/carbon/3.0.0/).
 
-Deixo aqui o [download dos arquivos utilizados para implementar o _Array Type_](http://www.mcorp.com.br/wp-content/uploads/2010/05/wso2tutorial-array-type.zip) nesse exemplo, contém os arquivos abaixo:
+Deixo aqui o [download dos arquivos utilizados para implementar o _Array Type_](http://assets.mcorp.com.br/wp-content/uploads/2010/05/wso2tutorial-array-type.zip) nesse exemplo, contém os arquivos abaixo:
 
   * _Data Service_ antes da implementação do _Array Type_
   * _Data Service_ depois da implementação do _Array Type_

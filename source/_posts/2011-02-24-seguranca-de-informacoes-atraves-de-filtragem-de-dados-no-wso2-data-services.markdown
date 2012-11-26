@@ -20,7 +20,7 @@ tags:
 - xml signature
 ---
 
-[![](http://www.mcorp.com.br/wp-content/uploads/2011/02/cadeado-300x199.jpg)](http://www.mcorp.com.br/wp-content/uploads/2011/02/cadeado.jpg)
+[![](http://assets.mcorp.com.br/wp-content/uploads/2011/02/cadeado-300x199.jpg)](http://assets.mcorp.com.br/wp-content/uploads/2011/02/cadeado.jpg)
 
 Em alguns casos, podemos nos deparar com a necessidade de confidencializar
 alguns dados no retorno de [Data Services](http://www.mcorp.com.br/glossario/#DataServices), 
@@ -57,13 +57,13 @@ usuários "Maria" que faz parte do departamento de RH da empresa e "Joao" que
 faz parte da segurança do prédio. Click em "Add User" para preenchermos os
 dados do usuário que será cadastrado.
 
-[![add user wso2](http://www.mcorp.com.br/wp-content/uploads/2011/02/figura1.0-add-user-wso2-300x205.jpg)](http://www.mcorp.com.br/wp-content/uploads/2011/02/figura1.0-add-user-wso2.jpg)
+[![add user wso2](http://assets.mcorp.com.br/wp-content/uploads/2011/02/figura1.0-add-user-wso2-300x205.jpg)](http://assets.mcorp.com.br/wp-content/uploads/2011/02/figura1.0-add-user-wso2.jpg)
 
 Após inserir os dados do usuário, clicar em "finish", repetir o procedimento
 pro cadastro do outro usuário. Podemos listar os usuários criados como mostra
 a imagem.
 
-[![list user wso2](http://www.mcorp.com.br/wp-content/uploads/2011/02/figura1.1-list-user-wso2-300x149.jpg)](http://www.mcorp.com.br/wp-content/uploads/2011/02/figura1.1-list-user-wso2.jpg)
+[![list user wso2](http://assets.mcorp.com.br/wp-content/uploads/2011/02/figura1.1-list-user-wso2-300x149.jpg)](http://assets.mcorp.com.br/wp-content/uploads/2011/02/figura1.1-list-user-wso2.jpg)
 
 ## Etapa 2 - Criando grupos de usuários
 
@@ -80,13 +80,13 @@ vincular os usuários que farão parte do mesmo, faça uma busca listando todos
 os usuários e selecione o usuário "Maria" criado anteriormente, como na imagem
 abaixo e finalize.
 
-[![select user wso2](http://www.mcorp.com.br/wp-content/uploads/2011/02/figura1.2-select-user-wso2-300x170.jpg)](http://www.mcorp.com.br/wp-content/uploads/2011/02/figura1.2-select-user-wso2.jpg)
+[![select user wso2](http://assets.mcorp.com.br/wp-content/uploads/2011/02/figura1.2-select-user-wso2-300x170.jpg)](http://assets.mcorp.com.br/wp-content/uploads/2011/02/figura1.2-select-user-wso2.jpg)
 
 Agora usando o mesmo processo vamos criar o grupo "Seguranca". Observe que
 quando selecionamos algum usuário criado e vinculado ao grupo, o mesmo possui
 um ou vários grupos selecionados.
 
-[![roles of users wso2](http://www.mcorp.com.br/wp-content/uploads/2011/02/figura1.3-roles-of-users-wso2-300x176.jpg)](http://www.mcorp.com.br/wp-content/uploads/2011/02/figura1.3-roles-of-users-wso2.jpg)
+[![roles of users wso2](http://assets.mcorp.com.br/wp-content/uploads/2011/02/figura1.3-roles-of-users-wso2-300x176.jpg)](http://assets.mcorp.com.br/wp-content/uploads/2011/02/figura1.3-roles-of-users-wso2.jpg)
 
 ## Etapa 3 - Filtrando dados da consulta
 
@@ -102,7 +102,7 @@ Details > Data Sources > Queries",  para inserirmos nosso novo método.
 Preenchemos com o SQL, o campo de entrada, e na hora em que formos preencher o
 retorno será onde a "mágica" acontecerá.
 
-[![edit query wso2](http://www.mcorp.com.br/wp-content/uploads/2011/02/figura1.4-edit-query-wso2-300x176.jpg)](http://www.mcorp.com.br/wp-content/uploads/2011/02/figura1.4-edit-query-wso2.jpg)
+[![edit query wso2](http://assets.mcorp.com.br/wp-content/uploads/2011/02/figura1.4-edit-query-wso2-300x176.jpg)](http://assets.mcorp.com.br/wp-content/uploads/2011/02/figura1.4-edit-query-wso2.jpg)
 
 No item "Add new output Mapping" abriremos a tela para cadastrar um novo campo
 de retorno, preenchemos o tipo do campo, o nome de saída e o nome do campo no
@@ -112,7 +112,7 @@ ambos os grupos, no caso do campo "SALARIO" selecionaremos apenas o grupo
 RecursosHumanos, com o método criado mostraremos como consumir esse método
 filtrando os dados.
 
-[![add edit output mapping wso2](http://www.mcorp.com.br/wp-content/uploads/2011/02/figura1.5-add-edit-output-mapping-wso2-300x160.jpg)](http://www.mcorp.com.br/wp-content/uploads/2011/02/figura1.5-add-edit-output-mapping-wso2.jpg)
+[![add edit output mapping wso2](http://assets.mcorp.com.br/wp-content/uploads/2011/02/figura1.5-add-edit-output-mapping-wso2-300x160.jpg)](http://assets.mcorp.com.br/wp-content/uploads/2011/02/figura1.5-add-edit-output-mapping-wso2.jpg)
 
 ## Etapa 4 - Testando a filtragem de dados
 
@@ -122,7 +122,7 @@ Security for the service", selecionamos a opção "yes" no combo e setamos o
 flag "UsernameToken", assim estaremos habilitando segurança por grupo e
 usuário do cliente.
 
-[![security for the service wso2](http://www.mcorp.com.br/wp-content/uploads/2011/02/figura1.6-security-for-the-service-wso2-300x130.jpg)](http://www.mcorp.com.br/wp-content/uploads/2011/02/figura1.6-security-for-the-service-wso2.jpg)
+[![security for the service wso2](http://assets.mcorp.com.br/wp-content/uploads/2011/02/figura1.6-security-for-the-service-wso2-300x130.jpg)](http://assets.mcorp.com.br/wp-content/uploads/2011/02/figura1.6-security-for-the-service-wso2.jpg)
 
 Simulando a execução do serviço, no próprio WSO2 Data Services Server, podemos
 perceber que aparecem as opções "username" e "password". O retorno será
@@ -130,9 +130,9 @@ filtrado de acordo com o usuário que for preenchido nesses campos. Executando
 a consulta, notaremos que o campo "SALARIO" só aparece no retorno se
 utilizarmos o usuário "Maria".
 
-[![full return service wso2](http://www.mcorp.com.br/wp-content/uploads/2011/02/figura1.9-full-return-service-wso2-300x126.jpg)](http://www.mcorp.com.br/wp-content/uploads/2011/02/figura1.9-full-return-service-wso2.jpg)
+[![full return service wso2](http://assets.mcorp.com.br/wp-content/uploads/2011/02/figura1.9-full-return-service-wso2-300x126.jpg)](http://assets.mcorp.com.br/wp-content/uploads/2011/02/figura1.9-full-return-service-wso2.jpg)
 
-[![parcial return service wso2](http://www.mcorp.com.br/wp-content/uploads/2011/02/figura1.8-parcial-return-service-wso2-300x128.jpg)](http://www.mcorp.com.br/wp-content/uploads/2011/02/figura1.8-parcial-return-service-wso2.jpg)
+[![parcial return service wso2](http://assets.mcorp.com.br/wp-content/uploads/2011/02/figura1.8-parcial-return-service-wso2-300x128.jpg)](http://assets.mcorp.com.br/wp-content/uploads/2011/02/figura1.8-parcial-return-service-wso2.jpg)
 
 Espero ter colaborado, sugestões e criticas são sempre bem vindas, focando o
 objetivo de transformar a comunidade [WSO2 Brasil](http://www.wso2brasil.com.br/) cada vez mais forte, até o próximo

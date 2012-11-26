@@ -23,7 +23,7 @@ tags:
 - wso2 carbon
 ---
 
-[![](http://www.mcorp.com.br/wp-content/uploads/2011/10/testes-e-a-neura.jpg)](http://www.mcorp.com.br/wp-content/uploads/2011/10/testes-e-a-neura.jpg)
+[![](http://assets.mcorp.com.br/wp-content/uploads/2011/10/testes-e-a-neura.jpg)](http://assets.mcorp.com.br/wp-content/uploads/2011/10/testes-e-a-neura.jpg)
 
 Se tem uma tarefa que toma muito tempo nosso, são os testes quando sai versão nova de algum produto do [WSO2](http://wso2.org).
 

@@ -19,7 +19,7 @@ oportunidade é a leitura do livro **SOA Adoption for Dummies**, ainda não tive
 tempo de ler todo ele pra "garantir" a qualidade, mas logo postarei minha
 impressão sobre ele.
 
-[!["Free Book: SOA Adoption for Dummies (somente em inglês)"](http://www.mcorp.com.br/wp-content/uploads/2010/02/Free_Book_SOA_Adoption_for_Dummies-194x300.png "Free Book: SOA Adoption for Dummies (somente em inglês)")](http://www.mcorp.com.br/wp-content/uploads/2010/02/Free_Book_SOA_Adoption_for_Dummies.png)
+[!["Free Book: SOA Adoption for Dummies (somente em inglês)"](http://assets.mcorp.com.br/wp-content/uploads/2010/02/Free_Book_SOA_Adoption_for_Dummies-194x300.png "Free Book: SOA Adoption for Dummies (somente em inglês)")](http://assets.mcorp.com.br/wp-content/uploads/2010/02/Free_Book_SOA_Adoption_for_Dummies.png)
 
 Você pode realizar o download dele por este link: [SOA Adoption for Dummies](http://www.softwareag.com/Corporate/res/books/soa_adoption_for_dummies/default.
 asp).
