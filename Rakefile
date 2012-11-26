@@ -8,7 +8,7 @@ ssh_user       = "vpr@maneh.org"
 ssh_port       = "22"
 document_root  = "~/blogs/mcorp.com.br/"
 rsync_delete   = false
-deploy_default = "rsync"
+deploy_default = "push"
 
 # This will be configured for you when you run config_deploy
 deploy_branch  = "gh-pages"
