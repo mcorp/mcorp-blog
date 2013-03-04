@@ -23,7 +23,7 @@ tags:
 
 [{% img center http://assets.mcorp.com.br/wp-content/uploads/2013/02/wso2con-auditorio-400x300.jpg 400 300 "WSO2Con Auditório" "WSO2Con Auditório" %}](http://assets.mcorp.com.br/wp-content/uploads/2013/02/wso2con-auditorio.jpg)
 
-Galerinha que acompanha o [@WSO2Brasil](http://twitter.com/wso2brasil) está ligado que fomos convidados para a [WSO2Con](http://wso2con.com) em Londres, que aconteceu do dia 12 ao dia 14 de fevereiro.
+O pessoal que acompanha o [@WSO2Brasil](http://twitter.com/wso2brasil) está sabendo que fomos convidados para a [WSO2Con](http://wso2con.com) em Londres, que aconteceu do dia 12 ao dia 14 de fevereiro.
 
 O local estava muito bem decorado e com tudo perfeitamente bem preparado! Foi engraçado que tínhamos "link" direto com o pessoal em Colombo (Sri Lanka) e podíamos ficar assistindo-os pelo telão.
 
