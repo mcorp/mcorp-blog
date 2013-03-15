@@ -1,5 +1,5 @@
 ---
-author: vyper
+author: Leonardo Saraiva
 date: '2009-12-22 10:43:15'
 layout: post
 slug: instalando-wso2-enterprise-service-bus-eclipse-tools-no-ubuntu-karmic-koala-9-10
@@ -29,7 +29,7 @@ cansado de ficar utilizando a interface web para gerenciar os "esqueminhas" da
 ESB, resolvei testar o plugin.
 
 Mas como nem tudo são flores, após eu [instalar o plugin](http://wso2.org/project/tools/esb/esb-authoring/1.0.0/docs/install_guide.html) e tentar criar um novo _endpoint_,
-recebi o erro abaixo: 
+recebi o erro abaixo:
 
     Unhandled event loop exception XPCOM error -2147467259
 
@@ -40,7 +40,7 @@ erro é causado por falta da biblioteca **libstdc++5**, que no Ubuntu Karmic
 Koala (9.10) foi atualizada para **libstdc++6**. Versão que é incompátivel com
 a visualização embarcada do Mozilla que o [Eclipse WTP](http://www.eclipse.org/webtools/) utiliza.
 
-Então, para resolver o problema, primeiro passo que tentei foi: 
+Então, para resolver o problema, primeiro passo que tentei foi:
 
     $ sudo apt-get install libstdc++5
     Reading package lists... Done
@@ -52,11 +52,11 @@ Então, para resolver o problema, primeiro passo que tentei foi:
     E: Package libstdc++5 has no installation candidate
 
 Só que não resolveu, a maneira que encontrei foi procurar a biblioteca para
-download, encontrei no site do Debian: 
+download, encontrei no site do Debian:
 
     wget http://ftp.br.debian.org/debian/pool/main/g/gcc-3.3/libstdc++5_3.3.6-18_i386.deb
 
-E instalei: 
+E instalei:
 
     sudo dpkg -i libstdc++5_3.3.6-18_i386.deb
 

@@ -1,5 +1,5 @@
 ---
-author: vyper
+author: Leonardo Saraiva
 date: '2010-04-19 11:54:27'
 layout: post
 slug: wso2-enterprise-service-bus-manipulando-erros-em-endpoints

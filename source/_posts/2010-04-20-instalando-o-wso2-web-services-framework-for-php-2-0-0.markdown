@@ -1,5 +1,5 @@
 ---
-author: vyper
+author: Leonardo Saraiva
 date: '2010-04-20 21:47:45'
 layout: post
 slug: instalando-o-wso2-web-services-framework-for-php-2-0-0
@@ -79,7 +79,7 @@ versão (no meu caso a 2.0.0):
     tar xfvz wso2-wsf-c-src-2.0.0.tar.gz
     cd wso2-wsf-c-src-2.0.0
     ./configure
-    make 
+    make
     sudo make install
 
 ### PHP 5.1.1 ou superior
@@ -90,7 +90,7 @@ google: [instalação do php no ubuntu](http://www.google.com.br/#hl=pt-BR&sourc
 
 ### Bibliotecas libxml2 e OpenSSL
 
-O comando para instalar as dependências é: 
+O comando para instalar as dependências é:
 
     sudo apt-get install libxml2 openssl
 
@@ -98,14 +98,14 @@ E com todas as dependências já instaladas e funcionando, podemos utilizar um
 _phpinfo()_; para conferir:
 
 [![](http://assets.mcorp.com.br/wp-content/uploads/2010/04/config-php-libxml2-openssl-300x187.png)](http://assets.mcorp.com.br/wp-content/uploads/2010/04/config-php-libxml2-openssl.png)
-  
+
 
 ### Compilação do WSF/PHP
 
 #### CMM
 
 E agora, a instalação propriamente dita, utilizando novamente os pacotes da
-versão 2.0.0: 
+versão 2.0.0:
 
     wget http://dist.wso2.org/products/wsf/php/2.0.0/wso2-wsf-php-src-2.0.0.tar.gz
     ./configure
@@ -118,8 +118,8 @@ Estamos quase chegando lá...
 
 Vamos copiar dois arquivos do diretório _samples_ (um cliente e um servidor)
 para o diretório do servidor web (no meu caso: _/var/www/samples_) e ver se
-tudo funcionou: 
-  
+tudo funcionou:
+
     sudo mkdir -p /var/www/samples/
     sudo cp samples/math_* /var/www/samples/.
 

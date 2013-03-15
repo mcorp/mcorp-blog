@@ -1,5 +1,5 @@
 ---
-author: vyper
+author: Leonardo Saraiva
 date: '2009-11-26 19:08:32'
 layout: post
 slug: software-livre-codigo-aberto-e-o-mundo-soa

@@ -1,5 +1,5 @@
 ---
-author: vyper
+author: Leonardo Saraiva
 date: '2009-11-19 05:38:38'
 layout: post
 slug: wso2-e-a-quinta-feira-agitada-muitos-lancamentos

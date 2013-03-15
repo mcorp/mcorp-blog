@@ -1,5 +1,5 @@
 ---
-author: zehnogueira
+author: José Nogueira
 date: '2011-02-24 19:30:30'
 layout: post
 slug: seguranca-de-informacoes-atraves-de-filtragem-de-dados-no-wso2-data-services
@@ -23,7 +23,7 @@ tags:
 [![](http://assets.mcorp.com.br/wp-content/uploads/2011/02/cadeado-300x199.jpg)](http://assets.mcorp.com.br/wp-content/uploads/2011/02/cadeado.jpg)
 
 Em alguns casos, podemos nos deparar com a necessidade de confidencializar
-alguns dados no retorno de [Data Services](http://www.mcorp.com.br/glossario/#DataServices), 
+alguns dados no retorno de [Data Services](http://www.mcorp.com.br/glossario/#DataServices),
 exibindo-os apenas
 para determinados grupos de usuários, tanto por questão de segurança (quando
 algum grupo específico não pode ter acesso a algumas informações),  quanto por
@@ -51,7 +51,7 @@ TB_FUNCIONARIOS, com os campos: ID, NOME E SALARIO.
 
 ## Etapa 1 - Criando o usuário
 
-Logado ao WSO2 Data Services Server vá em "Home > Configure > User Management > Users", 
+Logado ao WSO2 Data Services Server vá em "Home > Configure > User Management > Users",
 para que possamos criar novos usuários, nesse caso criaremos os
 usuários "Maria" que faz parte do departamento de RH da empresa e "Joao" que
 faz parte da segurança do prédio. Click em "Add User" para preenchermos os

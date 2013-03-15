@@ -1,5 +1,5 @@
 ---
-author: vyper
+author: Leonardo Saraiva
 date: '2011-06-11 15:39:37'
 layout: post
 slug: novidades-wso2-data-services-server-2-6-x
@@ -159,7 +159,7 @@ prático.
 ### <a name="dss-stratos-service"></a>Data as a Service Features - DSS Stratos Service
 
 Existem algumas novidades também sobre os produtos como serviço na nuvem, que
-chamam de [Stratos](http://www.mcorp.com.br/2010/06/lancamento-do-wso2-stratos-alpha/), 
+chamam de [Stratos](http://www.mcorp.com.br/2010/06/lancamento-do-wso2-stratos-alpha/),
 mas não encontrei documentação nesse _build_.
 
 E algumas outras pequenas alterações que foram percebidas, como:

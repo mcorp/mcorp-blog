@@ -1,5 +1,5 @@
 ---
-author: JJ
+author: José Nogueira
 layout: post
 title: "Treinamento: Celepar"
 date: 2012-11-08 20:06

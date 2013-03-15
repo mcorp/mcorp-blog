@@ -1,5 +1,5 @@
 ---
-author: vyper
+author: Leonardo Saraiva
 date: '2011-10-25 09:52:00'
 layout: post
 slug: soap-vs-rest
@@ -45,7 +45,7 @@ não tentar encontrar/criar um padrão que resolva todos os problemas.
 {% gist 2903819 %}
 
 ## Se é que alguém chegou até aqui...
-  
+
 Cada um no seu quadrado **ou não**.
 
 **Espertas** são as pessoas que conseguem juntar o melhor dos dois mundos indiferente do contexto onde ela esteja. Porque, no fim, o que importa REALMENTE é: **resolver seus problemas e ser feliz com o que faz**.

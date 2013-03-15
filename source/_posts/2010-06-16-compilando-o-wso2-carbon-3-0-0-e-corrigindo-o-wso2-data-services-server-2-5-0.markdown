@@ -1,5 +1,5 @@
 ---
-author: vyper
+author: Leonardo Saraiva
 date: '2010-06-16 10:17:12'
 layout: post
 slug: compilando-o-wso2-carbon-3-0-0-e-corrigindo-o-wso2-data-services-server-2-5-0
@@ -56,11 +56,11 @@ devidamente baixado, vamos colocar a mão na massa.
 
 ## Baixando e aplicando o _patch_
 
-    wget /wp-content/uploads/2010/06/wso2-dataservices-accept-null.txt 
+    wget /wp-content/uploads/2010/06/wso2-dataservices-accept-null.txt
     cd wso2carbon-3.0.0-src patch -p1 wso2-dataservices-accept-null.patch
 
-E a mensagem recebida aqui será algo como: 
-    
+E a mensagem recebida aqui será algo como:
+
     patching file components/data-services/org.wso2.carbon.dataservices.core/3.0.0/src/main/java/org/wso2/carbon/dataservices/dispatch/query/SQLQuery.java
 
 ## Compilando o componente
@@ -69,7 +69,7 @@ Levando em consideração que você tenha as dependências necessárias, vai ser
 passo bem demorado. Vai fazer download de alguns pacotes, compilar, testar e
 gerar uma nova versão do componente, com a correção.
 
-    cd components/data-services 
+    cd components/data-services
     mvn install
 
 ## Corrigindo o Data Services Server
@@ -78,7 +78,7 @@ Agora que temos o componente corrigido e devidamente compilado, vamos copiá-lo
 para a instância do WSO2 Data Services Server (levando em consideração que
 minha instalação fica em ~/Applications/wso2/wso2dataservices-2.5.0).
 
-    cp org.wso2.carbon.dataservices.core/3.0.0/target/org.wso2.carbon.dataservices.core-3.0.0.jar ~/Applications/wso2/wso2dataservices-2.5.0/wso2dataservices-2.5.0/repository/components/plugins/org.wso2.carbon.dataservices.core-3.0.0.jar 
+    cp org.wso2.carbon.dataservices.core/3.0.0/target/org.wso2.carbon.dataservices.core-3.0.0.jar ~/Applications/wso2/wso2dataservices-2.5.0/wso2dataservices-2.5.0/repository/components/plugins/org.wso2.carbon.dataservices.core-3.0.0.jar
     cp org.wso2.carbon.dataservices.ui/3.0.0/target/org.wso2.carbon.dataservices.ui-3.0.0.jar ~/Applications/wso2/wso2dataservices-2.5.0/wso2dataservices-2.5.0/repository/components/plugins/org.wso2.carbon.dataservices.ui-3.0.0.jar
 
 ## Conclusão

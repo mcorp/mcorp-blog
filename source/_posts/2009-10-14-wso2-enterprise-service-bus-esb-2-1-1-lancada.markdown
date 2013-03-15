@@ -1,5 +1,5 @@
 ---
-author: vyper
+author: Leonardo Saraiva
 date: '2009-10-14 12:37:12'
 layout: post
 slug: wso2-enterprise-service-bus-esb-2-1-1-lancada

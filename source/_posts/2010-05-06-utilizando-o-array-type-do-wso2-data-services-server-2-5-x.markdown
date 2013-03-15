@@ -1,5 +1,5 @@
 ---
-author: vyper
+author: Leonardo Saraiva
 date: '2010-05-06 18:27:32'
 layout: post
 slug: utilizando-o-array-type-do-wso2-data-services-server-2-5-x
@@ -66,7 +66,7 @@ _scalar_ para _array_, novamente, como fiz abaixo:
 
 [![](http://assets.mcorp.com.br/wp-content/uploads/2010/05/input-scalar-150x150.png)](http://assets.mcorp.com.br/wp-content/uploads/2010/05/input-scalar.png) [![](http://assets.mcorp.com.br/wp-content/uploads/2010/05/input-array-150x150.png)](http://assets.mcorp.com.br/wp-content/uploads/2010/05/input-array.png)
 
-  
+
 
 ## O resultado
 
@@ -75,7 +75,7 @@ E agora vamos a parte legal: o resultado!
 [![](http://assets.mcorp.com.br/wp-content/uploads/2010/05/try-it-method-productById-with-array-type-150x150.png)](http://assets.mcorp.com.br/wp-content/uploads/2010/05/try-it-method-productById-with-array-type.png)
 [![](http://assets.mcorp.com.br/wp-content/uploads/2010/05/soap-ui-method-productById-with-array-type-150x150.png)](http://assets.mcorp.com.br/wp-content/uploads/2010/05/soap-ui-method-productById-with-array-type.png)
 
-  
+
 
 ## Conclusão
 

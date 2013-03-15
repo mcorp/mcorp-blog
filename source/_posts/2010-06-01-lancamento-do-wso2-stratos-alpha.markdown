@@ -1,5 +1,5 @@
 ---
-author: vyper
+author: Leonardo Saraiva
 date: '2010-06-01 15:50:24'
 layout: post
 slug: lancamento-do-wso2-stratos-alpha

@@ -1,5 +1,5 @@
 ---
-author: vyper
+author: Leonardo Saraiva
 date: '2010-08-26 15:12:11'
 layout: post
 slug: promocao-livro-shell-script
@@ -26,9 +26,9 @@ tags:
 ![](http://assets.mcorp.com.br/wp-content/uploads/2010/08/livroshell.png)Inspirado nas promoções de [3000conchinhas vendidas](http://blog.aurelio.net/2010/08/19/3000-conchinhas-vendidas/) e [1000 piazinhos vendidos](http://blog.aurelio.net/2010/08/23/1000-piazinhos-verdes-vendidos/) que o [Aurélio](http://twitter.com/oreio) fez no twitter, resolvi parar de ser enrolado e egoísta!
 
 Afinal, o prazer de ler os livros escritos pelo [Aurélio](http://aurelio.net)
-tem que ser passado a frente. Por isso vou sortear o livro de [Shell Script](http://www.shellscript.com.br/) 
-que ganhei na promoção das [2.000 conchinhas vendidas](http://blog.aurelio.net/2009/09/18/2000-conchinhas-vendidas/), 
-pois tenho uma cópia comprada legalmente no site da [Editora Novatec](http://www.novatec.com.br/) (aqui você pode ler uma 
+tem que ser passado a frente. Por isso vou sortear o livro de [Shell Script](http://www.shellscript.com.br/)
+que ganhei na promoção das [2.000 conchinhas vendidas](http://blog.aurelio.net/2009/09/18/2000-conchinhas-vendidas/),
+pois tenho uma cópia comprada legalmente no site da [Editora Novatec](http://www.novatec.com.br/) (aqui você pode ler uma
 [resenha sobre o livro Shell Script](http://www.maneh.org/2008/07/shell-script-profissional/))
 e não tenho muito o que fazer com dois livros iguais!
 

@@ -1,5 +1,5 @@
 ---
-author: vyper
+author: Leonardo Saraiva
 date: '2009-11-17 06:41:14'
 layout: post
 slug: efetividade-moleskines-tupiniquins-e-promocao

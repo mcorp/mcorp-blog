@@ -1,5 +1,5 @@
 ---
-author: vyper
+author: Leonardo Saraiva
 date: '2010-05-27 16:57:36'
 layout: post
 slug: mapas-interativos-e-geoprocessamento

@@ -1,5 +1,5 @@
 ---
-author: vyper
+author: Leonardo Saraiva
 date: '2010-02-25 13:25:05'
 layout: post
 slug: livro-gratis-soa-adoption-for-dummies

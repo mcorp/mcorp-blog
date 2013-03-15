@@ -1,5 +1,5 @@
 ---
-author: vyper
+author: Leonardo Saraiva
 date: '2009-12-18 17:46:09'
 layout: post
 slug: testes-na-versao-2-2-0-do-wso2-data-services-server
@@ -53,7 +53,7 @@ retornou tudo que eu precisava. Já no segundo método...
 E voltamos a busca do
 erro perdido... E dessa vez não foi falta de atenção nossa, apenas o plugin
 que o pessoal do WSO2 disponibiliza (e que ensinei a
-[compilar](http://www.mcorp.com.br/2009/12/compilando-o-plugin-do-wso2-data-services-para-o-eclipse/)) 
+[compilar](http://www.mcorp.com.br/2009/12/compilando-o-plugin-do-wso2-data-services-para-o-eclipse/))
 que não preencheu o atributo como devia. Na chamada
 da operação estava assim:
 

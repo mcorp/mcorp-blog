@@ -1,9 +1,10 @@
 ---
+author: Leonardo Saraiva
 layout: post
 title: "Considerações da migração do Wordpress para Octopress"
 date: 2012-06-11 03:41
 comments: true
-categories: 
+categories:
 - desenvolvimento
 tags:
 - wordpress
@@ -26,7 +27,7 @@ Quando for fazer a sua, ou antes disso, leve alguns itens em consideração:
 * o octopress não tem todas as frescuras do wordpress, então é possível que você sinta falta de algumas coisas (modal pra fotos é um exemplo);
 * não tem a facilidade de instalação das coisas como temos com o Wordpress, então, se prepare que muita coisa será manual;
 * o [exitwp](https://github.com/thomasf/exitwp) vai migrar suas fotos como fotos simples, se quiser posicionamento e afins, terá que usar a [image tag](http://octopress.org/docs/plugins/image-tag/), ou seja, revisar todas as fotos;
-* para snippets de código encontrei três opções: 
+* para snippets de código encontrei três opções:
   * usar a tag [code blocks](http://octopress.org/docs/plugins/codeblock/);
   * usar a tag [gist](http://octopress.org/docs/plugins/gist-tag/);
   * usar o simples markdown;

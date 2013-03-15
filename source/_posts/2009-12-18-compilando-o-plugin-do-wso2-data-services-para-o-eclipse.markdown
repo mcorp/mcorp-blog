@@ -1,5 +1,5 @@
 ---
-author: vyper
+author: Leonardo Saraiva
 date: '2009-12-18 12:21:41'
 layout: post
 slug: compilando-o-plugin-do-wso2-data-services-para-o-eclipse
@@ -42,7 +42,7 @@ resolvido:
 ## Baixando fontes
 
 Primeiro passo é baixar do [repositório](http://wso2.org/svn) o código fonte
-da última versão: 
+da última versão:
 
     svn co https://wso2.org/repos/wso2/trunk/tools/ide/eclipse/data-service/org.wso2.ws.dataservices.ide/
 
@@ -51,7 +51,7 @@ da última versão:
 Depois de baixados os fontes, basta entrar na pasta que foi gerada e mandar
 compilar:
 
-    cd org.wso2.ws.dataservices.ide 
+    cd org.wso2.ws.dataservices.ide
     mvn install
 
 Esse processo pode demorar um pouco, pois ele realiza o download de diversas
@@ -62,7 +62,7 @@ no seu Eclipse.
 ## Instalação
 
 No meu caso, o Eclipse está instalado no meu _home_ e é para lá que copiei o
-arquivo. 
+arquivo.
 
     cp target/org.wso2.ws.dataservices.ide_1.0.0.jar ~/Applications/eclipse/plugins/.
 

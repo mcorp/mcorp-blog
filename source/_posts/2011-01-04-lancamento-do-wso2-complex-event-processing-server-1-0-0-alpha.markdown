@@ -1,5 +1,5 @@
 ---
-author: vyper
+author: Leonardo Saraiva
 date: '2011-01-04 07:28:06'
 layout: post
 slug: lancamento-do-wso2-complex-event-processing-server-1-0-0-alpha
@@ -24,7 +24,7 @@ tenhamos processamento de eventos complexos em nosso ambiente SOA.
 
 Alguns dos recursos que podemos encontrar no WSO2 CEP:
 
-  * Plugable back end rutime support - WSO2 CEP supports following back end run time engines. 
+  * Plugable back end rutime support - WSO2 CEP supports following back end run time engines.
     * Drools Fusion - This back end runtime engine is distributed with the CEP pack
     * Esper     - This back end runtime is available at WSO2 GPL P2 repository : [http://dist.wso2.org/wso2-gpl-p2/carbon/releases/3.1.0-alpha/](http://dist.wso2.org/wso2-gpl-p2/carbon/releases/3.1.0-alpha/) and can be added as a feature with WSO2 Carbon Feature Management.
   * Support Multiple Broker Types - WSO2 CEP supports WS-Event and JMS-Qpid broker types;

@@ -1,5 +1,5 @@
 ---
-author: vyper
+author: Leonardo Saraiva
 date: '2009-11-06 03:51:51'
 layout: post
 slug: 1-sql-server-day

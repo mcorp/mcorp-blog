@@ -1,5 +1,5 @@
 ---
-author: vyper
+author: Leonardo Saraiva
 date: '2009-11-24 12:28:20'
 layout: post
 slug: novidades-nos-lancamentos-nov2009-da-plataforma-wso2

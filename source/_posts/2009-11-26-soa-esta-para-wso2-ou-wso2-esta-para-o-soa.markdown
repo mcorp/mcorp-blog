@@ -1,5 +1,5 @@
 ---
-author: vyper
+author: Leonardo Saraiva
 date: '2009-11-26 07:00:27'
 layout: post
 slug: soa-esta-para-wso2-ou-wso2-esta-para-o-soa
@@ -26,7 +26,7 @@ E para começar vou tentar explicar o que o WSO2 representa para o SOA e o que
 o SOA representa para o WSO2, mas antes disso preciso explicar um pouco o que
 é cada um dos dois, então vamos lá:
 
-**[WSO2](/glossario/#WSO2):** Segundo o [site](http://www.wso2.org) da plataforma (tradução livre): "Produtos de código-livre integrados e modulares que dão suporte para criação de uma plataforma SOA, suprindo a parte de criação, conexão, composição e governança de serviços".  
+**[WSO2](/glossario/#WSO2):** Segundo o [site](http://www.wso2.org) da plataforma (tradução livre): "Produtos de código-livre integrados e modulares que dão suporte para criação de uma plataforma SOA, suprindo a parte de criação, conexão, composição e governança de serviços".
 **[SOA](/glossario/#SOA):** É uma estratégia que propõem organizar os ativos de software de forma que eles possam representar processos, atividades ou tarefas de negócio de forma direta. Tais representações são chamadas de serviço, que devem ser baseadas em padrões e facilmente combinados e reutilizados visando a satisfação dos requerimentos de negócio (para uma explicação um pouco mais detalhada, ver [aqui](http://www.ici.curitiba.org.br/exibirArtigo.aspx?idf=13), valeu AC!).
 
 E o que eu quero dizer com tudo isso? Digamos que para implementar e implantar

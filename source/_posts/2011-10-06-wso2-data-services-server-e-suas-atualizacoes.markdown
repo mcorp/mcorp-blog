@@ -1,5 +1,5 @@
 ---
-author: vyper
+author: Leonardo Saraiva
 date: '2011-10-06 15:58:00'
 layout: post
 slug: wso2-data-services-server-e-suas-atualizacoes

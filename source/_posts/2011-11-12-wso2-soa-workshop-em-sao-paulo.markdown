@@ -1,5 +1,5 @@
 ---
-author: vyper
+author: Leonardo Saraiva
 date: '2011-11-12 19:18:34'
 layout: post
 slug: wso2-soa-workshop-em-sao-paulo

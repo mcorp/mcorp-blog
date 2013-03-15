@@ -1,5 +1,5 @@
 ---
-author: vyper
+author: Leonardo Saraiva
 date: '2010-04-06 15:44:57'
 layout: post
 slug: wso2-business-activity-monitoring-sql-server
@@ -32,8 +32,8 @@ e a instalação do [WSO2 Business Activity Monitoring](http://wso2.org/download
 testes.
 
 Mas como migramos toda a suíte para rodar sobre o SQL Server, configurei tudo
-para apontar para o banco de dados do [WSO2 Governance Registry](http://wso2.org/downloads/governance-registry) 
-(arquivo _conf/registry.xml_) e do [WSO2 Identity Server](http://wso2.org/downloads/identity) 
+para apontar para o banco de dados do [WSO2 Governance Registry](http://wso2.org/downloads/governance-registry)
+(arquivo _conf/registry.xml_) e do [WSO2 Identity Server](http://wso2.org/downloads/identity)
 (arquivo _conf/user-mgt.xml_) - maiores explicações ficam para uma outra oportunidade.
 
 Só que ainda ficou uma dúvida no ar! Aonde estavam as configurações de conexão
@@ -48,23 +48,23 @@ Com essa descoberta, o jeito foi partir para o básico, buscar um arquivo de
 configuração que pudesse conter a conexão apontando para esses arquivos.
 
     leonardo@mcorp:~/Applications/wso2/wso2bam-1.0.1$ grep -r h2:database *
-    conf/registry.xml: jdbc:h2:database/WSO2CARBON_DB 
+    conf/registry.xml: jdbc:h2:database/WSO2CARBON_DB
     conf/user-mgt.xml: jdbc:h2:database/WSO2CARBON_DB
 
 Ops, não encontrei nada. Nova tentativa:
 
-    leonardo@mcorp:~/Applications/wso2/wso2bam-1.0.1$ grep -r h2 * 
+    leonardo@mcorp:~/Applications/wso2/wso2bam-1.0.1$ grep -r h2 *
     [milhões de respostas - ocultadas por mim - que não ajudam em nada]
 
 Vamos lá, filtrar um pouco mais para quem sabe ser mais feliz:
 
     leonardo@mcorp:~/Applications/wso2/wso2bam-1.0.1$ grep -r jdbc:h2 *
-    conf/registry.xml: jdbc:h2:database/WSO2CARBON_DB 
-    conf/user-mgt.xml: jdbc:h2:database/WSO2CARBON_DB 
+    conf/registry.xml: jdbc:h2:database/WSO2CARBON_DB
+    conf/user-mgt.xml: jdbc:h2:database/WSO2CARBON_DB
     repository/dataservices/BAMSummaryGenerationDS.dbs:jdbc:h2:bam/database/WSO2BAM_DB
     repository/dataservices/BAMConfigurationDS.dbs:jdbc:h2:bam/database/WSO2BAM_DB
-    repository/dataservices/BAMStatQueryDS.dbs:jdbc:h2:bam/database/WSO2BAM_DB 
-    repository/dataservices/BAMDataCollectionDS.dbs:jdbc:h2:bam/database/WSO2BAM_DB 
+    repository/dataservices/BAMStatQueryDS.dbs:jdbc:h2:bam/database/WSO2BAM_DB
+    repository/dataservices/BAMDataCollectionDS.dbs:jdbc:h2:bam/database/WSO2BAM_DB
     repository/dataservices/BAMSummaryQueryDS.dbs:jdbc:h2:bam/database/WSO2BAM_DB
 
 E agora sim! Com isso descobrimos que ele utiliza alguns [data services](/glossario/#DataServices) que realizam o trabalho "sujo".

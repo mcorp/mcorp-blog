@@ -1,5 +1,5 @@
 ---
-author: vyper
+author: Leonardo Saraiva
 date: '2009-09-17 13:32:41'
 layout: post
 slug: wso2-data-services-instalacao-do-servidor
@@ -33,18 +33,18 @@ Criando a pasta:
     mkdir -p ~/Applications/wso2
 
 Descompactando o arquivo (lembrando de verificar a versão do arquivo que você
-baixou - no meu caso, 2.0): 
+baixou - no meu caso, 2.0):
 
     unzip /path/to/download/wso2dataservices-2.0.zip -d ~/Applications/wso2
 
-Após descompactado, vamos iniciar o servidor: 
+Após descompactado, vamos iniciar o servidor:
 
     cd ~/Applications/wso2/wso2-dataservices-2.0 ./bin/wso2server.sh
 
 Após algumas (várias) mensagens depois, você deve receber algo como:
 
     [2009-05-29 14:30:30,330] INFO - HTTPS port : 9443 {org.wso2.carbon.core.StartupServlet}
-    [2009-05-29 14:30:30,333] INFO - HTTP port : 9763 {org.wso2.carbon.core.StartupServlet} 
+    [2009-05-29 14:30:30,333] INFO - HTTP port : 9763 {org.wso2.carbon.core.StartupServlet}
     [2009-05-29 14:30:30,333] INFO - WSO2 Carbon started in 35 sec {org.wso2.carbon.core.StartupServlet}[/code]
 
 E isso representa que tudo já está instalado e funcionando! Para sair, basta

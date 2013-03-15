@@ -1,5 +1,5 @@
 ---
-author: vyper
+author: Leonardo Saraiva
 date: '2013-02-18 22:13:00'
 layout: post
 slug: wso2con-2013

@@ -1,5 +1,5 @@
 ---
-author: vyper
+author: Leonardo Saraiva
 date: '2010-03-08 20:03:58'
 layout: post
 slug: consumindo-um-servico-seguro-utilizando-php
