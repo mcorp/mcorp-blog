@@ -28,6 +28,18 @@ O WSO2 UES inclui um editor Jaggery.js embutido, navegador e uma maneira gráfic
 
 Aproveite a qualidade de recursos da premiada plataforma WSO2 Carbon e a flexibilidade do Jaggery.js para escrever código-fonte server-side sem compilação, com o WSO2 User Engagement Server.
 
+## Algumas telas
+
+<p style="text-align: center">
+  <a href="http://assets.mcorp.com.br/wp-content/uploads/2013/07/wso2-ues-dashboard.png"><img src="http://assets.mcorp.com.br/wp-content/uploads/2013/07/wso2-ues-dashboard-80x60.png" width="80" height="60" /></a>
+  <a href="http://assets.mcorp.com.br/wp-content/uploads/2013/07/wso2-ues-jaggery-ide-governance.png"><img src="http://assets.mcorp.com.br/wp-content/uploads/2013/07/wso2-ues-jaggery-ide-governance-80x60.png" width="80" height="60" /></a>
+  <a href="http://assets.mcorp.com.br/wp-content/uploads/2013/07/wso2-ues-jaggery-ide-menu.png"><img src="http://assets.mcorp.com.br/wp-content/uploads/2013/07/wso2-ues-jaggery-ide-menu-80x60.png" width="80" height="60" /></a>
+  <a href="http://assets.mcorp.com.br/wp-content/uploads/2013/07/wso2-ues-jaggery-ide-source.png"><img src="http://assets.mcorp.com.br/wp-content/uploads/2013/07/wso2-ues-jaggery-ide-source-80x60.png" width="80" height="60" /></a>
+  <a href="http://assets.mcorp.com.br/wp-content/uploads/2013/07/wso2-ues-microsite.png"><img src="http://assets.mcorp.com.br/wp-content/uploads/2013/07/wso2-ues-microsite-80x60.png" width="80" height="60" /></a>
+  <a href="http://assets.mcorp.com.br/wp-content/uploads/2013/07/wso2-ues-publish-settings.png"><img src="http://assets.mcorp.com.br/wp-content/uploads/2013/07/wso2-ues-publish-settings-80x60.png" width="80" height="60" /></a>
+  <a href="http://assets.mcorp.com.br/wp-content/uploads/2013/07/wso2-ues-store.png"><img src="http://assets.mcorp.com.br/wp-content/uploads/2013/07/wso2-ues-store-80x60.png" width="80" height="60" /></a>
+</p>
+
 ## Recursos
 
 * Criação visual de Dashboards
@@ -65,25 +77,6 @@ Aproveite a qualidade de recursos da premiada plataforma WSO2 Carbon e a flexibi
   * Crie, altere, apague, copie, cole e recorte arquivos e diretórios
   * Visualize as informações de arquivos e diretórios
   * Edite, selecione e publique dashboards e microsites
-
-## Algumas telas
-
-<p style="text-align: center">
-  <a href="http://assets.mcorp.com.br/wp-content/uploads/2013/07/wso2-ues-dashboard.png"><img src="http://assets.mcorp.com.br/wp-content/uploads/2013/07/wso2-ues-dashboard-80x60.png" width="80" height="60" /></a>
-
-  <a href="http://assets.mcorp.com.br/wp-content/uploads/2013/07/wso2-ues-jaggery-ide-governance.png"><img src="http://assets.mcorp.com.br/wp-content/uploads/2013/07/wso2-ues-jaggery-ide-governance-80x60.png" width="80" height="60" /></a>
-
-  <a href="http://assets.mcorp.com.br/wp-content/uploads/2013/07/wso2-ues-jaggery-ide-menu.png"><img src="http://assets.mcorp.com.br/wp-content/uploads/2013/07/wso2-ues-jaggery-ide-menu-80x60.png" width="80" height="60" /></a>
-
-  <a href="http://assets.mcorp.com.br/wp-content/uploads/2013/07/wso2-ues-jaggery-ide-source.png"><img src="http://assets.mcorp.com.br/wp-content/uploads/2013/07/wso2-ues-jaggery-ide-source-80x60.png" width="80" height="60" /></a>
-
-  <a href="http://assets.mcorp.com.br/wp-content/uploads/2013/07/wso2-ues-microsite.png"><img src="http://assets.mcorp.com.br/wp-content/uploads/2013/07/wso2-ues-microsite-80x60.png" width="80" height="60" /></a>
-
-  <a href="http://assets.mcorp.com.br/wp-content/uploads/2013/07/wso2-ues-publish-settings.png"><img src="http://assets.mcorp.com.br/wp-content/uploads/2013/07/wso2-ues-publish-settings-80x60.png" width="80" height="60" /></a>
-
-  <a href="http://assets.mcorp.com.br/wp-content/uploads/2013/07/wso2-ues-ues-store.png"><img src="http://assets.mcorp.com.br/wp-content/uploads/2013/07/wso2-ues-ues-store-80x60.png" width="80" height="60" /></a>
-
-</p>
 
 
 ## Outras informações
