@@ -1,4 +1,5 @@
 ---
+author: Leonardo Saraiva
 layout: post
 title: "8º SoLiSC - Nos vemos lá"
 date: 2013-09-16 10:29
