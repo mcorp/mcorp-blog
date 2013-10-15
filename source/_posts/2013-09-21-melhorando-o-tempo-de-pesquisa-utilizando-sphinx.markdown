@@ -33,7 +33,7 @@ Agora, se começarmos a pensar num sistema maior e que começa a atingir algo na
 
 Soluções? Existem várias! Alguns dos mais conhecidos são: [Solr](http://lucene.apache.org/solr/) (que utiliza [Lucene](http://lucene.apache.org/) por baixo), [SphinxSearch](http://sphinxsearch.com/), [ElasticSearch](http://www.elasticsearch.org/) ou, ainda, utilizar a fulltext search que o seu banco de dados implementa (a maioria deles tem).
 
-Mas irei abordar o uso do Sphinx em uma aplicação Rails, todos os engines terão suas vantagens e desvantagens, não adianta ficarmos discutindo “sexo dos anjos” e tentando convencê-los a usar um ou outro, vou apenas mostrar um pouco da maneira como trabalha e você identifica se resolve seu problema ou não. (;
+Mas irei abordar o uso do Sphinx em uma aplicação Rails, todos os engines terão suas vantagens e desvantagens, não adianta ficarmos discutindo “sexo dos anjos” e tentando convencê-los a usar um ou outro, vou apenas mostrar um pouco da maneira como trabalha e você identifica se resolve seu problema ou não. (;<a name="melhorando-o-tempo-de-pesquisa-utilizando-sphinx-TL-DR"></a>
 
 ## Rails + MySQL + Sphinx
 
