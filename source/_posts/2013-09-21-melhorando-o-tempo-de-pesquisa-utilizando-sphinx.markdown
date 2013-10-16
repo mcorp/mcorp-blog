@@ -8,6 +8,7 @@ comments: true
 status: publish
 categories:
 - arquitetura
+- desenvolvimento
 tags:
 - sphinx
 - mysql
