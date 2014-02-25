@@ -57,5 +57,5 @@ Para mim a solução foi instalar o tal do pacote [ecdsa](https://pypi.python.or
 
 E bom uso do fabric sobre o CentOS 6.5! (:
 
-*Observação:* tive outros problemas diversos e descobri que o "maior" problema é a versão do Python que estou utilizando, a 2.6, muita gente falou para atualizar para a 2.7 (ao menos). Mas por enquanto os maiores problemas eu consegui resolver.
+**Observação:** tive outros problemas diversos e descobri que o "maior" problema é a versão do Python que estou utilizando, a 2.6, muita gente falou para atualizar para a 2.7 (ao menos). Mas por enquanto os maiores problemas eu consegui resolver.
 
