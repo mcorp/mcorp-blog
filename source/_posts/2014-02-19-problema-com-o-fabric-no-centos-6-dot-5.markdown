@@ -48,7 +48,7 @@ Ao tentar executar qualquer comando com o fabric recebia a mensagem abaixo:
 
 ## A solução
 
-Para mim a solução foi instalar o tal do pacote [ecdsa](https://pypi.python.org/pypi/ecdsa) e uma versão específica da [pycryto]](https://pypi.python.org/pypi/pycrypto), pois a distribuição vem com uma versão antiga, inicialmente apenas tentei atualizar e foi para a versão 2.4, mas continuei recebendo erro. Então descobri que na versão 2.3 o problema não ocorre.
+Para mim a solução foi instalar o tal do pacote [ecdsa](https://pypi.python.org/pypi/ecdsa) e uma versão específica da [pycryto](https://pypi.python.org/pypi/pycrypto), pois a distribuição vem com uma versão antiga, inicialmente apenas tentei atualizar e foi para a versão 2.4, mas continuei recebendo erro. Então descobri que na versão 2.3 o problema não ocorre.
 
     sudo pip install ecdsa
     sudo yum install python-devel
@@ -56,3 +56,6 @@ Para mim a solução foi instalar o tal do pacote [ecdsa](https://pypi.python.or
     sudo pip install PyCrypto==2.3
 
 E bom uso do fabric sobre o CentOS 6.5! (:
+
+*Observação:* tive outros problemas diversos e descobri que o "maior" problema é a versão do Python que estou utilizando, a 2.6, muita gente falou para atualizar para a 2.7 (ao menos). Mas por enquanto os maiores problemas eu consegui resolver.
+
